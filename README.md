@@ -83,6 +83,9 @@ Pull requests are welcome 🎉 — see [Contributing](#contributing) for guideli
   - [Codebases](#codebases)
   - [Papers](#papers)
     - [2025](#2025)
+      - [NeurIPS 2025](#neurips-2025)
+      - [ICML 2025](#icml-2025)
+      - [Other 2025 Papers](#other-2025-papers)
     - [2024 \& Earlier](#2024--earlier)
   - [Other Awesome Lists](#other-awesome-lists)
   - [Contributing](#contributing)
@@ -201,12 +204,12 @@ format:
 | [**verl**](https://github.com/volcengine/verl) | [![Stars](https://img.shields.io/github/stars/volcengine/verl?style=flat-square&logo=github)](https://github.com/volcengine/verl/stargazers)  | a flexible, efficient and production-ready RL training library for large language models |
 | [**TinyZero**](https://github.com/Jiayi-Pan/TinyZero) |  [![Stars](https://img.shields.io/github/stars/Jiayi-Pan/TinyZero?style=flat-square&logo=github)](https://github.com/Jiayi-Pan/TinyZero/stargazers) | Minimal reproduction of DeepSeek R1-Zero |
 | [**AReaL**](https://github.com/inclusionAI/AReaL) |  [![Stars](https://img.shields.io/github/stars/inclusionAI/AReaL?style=flat-square&logo=github)](https://github.com/inclusionAI/AReaL/stargazers) | Ant Reasoning Reinforcement Learning for LLMs |
-| [**RAGEN**](https://github.com/RAGEN-AI/RAGEN) |  [![Stars](https://img.shields.io/github/stars/RAGEN-AI/RAGEN?style=flat-square&logo=github)](https://github.com/RAGEN-AI/RAGEN/stargazers) | RAGEN (Reasoning AGENt, pronounced like "region") leverages reinforcement learning (RL) to train LLM reasoning agents in interactive, stochastic environments. |
 | [**Open-Reasoner-Zero**](https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero) |  [![Stars](https://img.shields.io/github/stars/Open-Reasoner-Zero/Open-Reasoner-Zero?style=flat-square&logo=github)](https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero/stargazers) | one open source implementation of large-scale reasoning-oriented RL training focusing on scalability, simplicity and accessibility |
-| [**PRIME**](https://github.com/PRIME-RL/PRIME) |  [![Stars](https://img.shields.io/github/stars/PRIME-RL/PRIME?style=flat-square&logo=github)](https://github.com/PRIME-RL/PRIME/stargazers) | PRIME (Process Reinforcement through IMplicit REwards), an open-source solution for online RL with process rewards |
-| [**rllm**](https://github.com/agentica-project/rllm) |  [![Stars](https://img.shields.io/github/stars/agentica-project/rllm?style=flat-square&logo=github)](https://github.com/agentica-project/rllm/stargazers) | an open-source framework for post-training language agents via reinforcement learning |
 | [**ROLL**](https://github.com/alibaba/ROLL) |  [![Stars](https://img.shields.io/github/stars/alibaba/ROLL?style=flat-square&logo=github)](https://github.com/alibaba/ROLL/stargazers) | an Efficient and User-Friendly Scaling Library for Reinforcement Learning with Large Language Models |
 | [**slime**](https://github.com/THUDM/slime) |  [![Stars](https://img.shields.io/github/stars/THUDM/slime?style=flat-square&logo=github)](https://github.com/THUDM/slime/stargazers) | an LLM post-training framework for RL scaling with high-performance training and flexible data generation|
+| [**RAGEN**](https://github.com/RAGEN-AI/RAGEN) |  [![Stars](https://img.shields.io/github/stars/RAGEN-AI/RAGEN?style=flat-square&logo=github)](https://github.com/RAGEN-AI/RAGEN/stargazers) | RAGEN (Reasoning AGENt, pronounced like "region") leverages reinforcement learning (RL) to train LLM reasoning agents in interactive, stochastic environments. |
+| [**PRIME**](https://github.com/PRIME-RL/PRIME) |  [![Stars](https://img.shields.io/github/stars/PRIME-RL/PRIME?style=flat-square&logo=github)](https://github.com/PRIME-RL/PRIME/stargazers) | PRIME (Process Reinforcement through IMplicit REwards), an open-source solution for online RL with process rewards |
+| [**rllm**](https://github.com/agentica-project/rllm) |  [![Stars](https://img.shields.io/github/stars/agentica-project/rllm?style=flat-square&logo=github)](https://github.com/agentica-project/rllm/stargazers) | an open-source framework for post-training language agents via reinforcement learning |
 | [**Nemo-Aligner**](https://github.com/NVIDIA/NeMo-Aligner) |  [![Stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Aligner?style=flat-square&logo=github)](https://github.com/NVIDIA/NeMo-Aligner/stargazers) | Scalable toolkit for efficient model alignment |
 | [**Trinity-RFT**](https://github.com/modelscope/Trinity-RFT) |  [![Stars](https://img.shields.io/github/stars/modelscope/Trinity-RFT?style=flat-square&logo=github)](https://github.com/modelscope/Trinity-RFT/stargazers) | A unified RFT framework with plug-and-play modules (for algorithms, data pipelines, and synchronization) |
 
@@ -217,6 +220,207 @@ format:
 ## Papers
 
 ### 2025
+
+#### NeurIPS 2025
+
+<details open>
+  <summary>Click to expand / collapse</summary>
+
+- [ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs](https://arxiv.org/abs/2506.10128)
+  - Xiyao Wang, Zhengyuan Yang, Chao Feng, Yuhang Zhou, Xiaoyu Liu, Yongyuan Liang, Ming Li, Ziyi Zang, Linjie Li, Chung-Ching Lin, Kevin Lin, Furong Huang, Lijuan Wang
+  - Key: Visual reasoning, Vision-Language Model, Visual captioning, Reward Model, Visual Hallucination, fine-grained hallucination criticism as RL objective
+  - ExpEnv: ViCrit-Bench, natural-image reasoning, abstract image reasoning, visual math
+
+- [Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?](https://arxiv.org/abs/2504.13837) 
+  - Yang Yue, Zhiqi Chen, Rui Lu, Andrew Zhao, Zhaokai Wang, Yang Yue, Shiji Song, Gao Huang
+  - Key: RLVR capability boundaries, pass@k analysis, base model vs RLVR-trained models, reasoning pattern emergence, distillation vs RL
+  - ExpEnv: Math/coding/visual reasoning benchmarks, multiple model families and RL algorithms
+
+- [Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335) 
+  - Andrew Zhao, Yiran Wu, Yang Yue, Tong Wu, Quentin Xu, Yang Yue, Matthieu Lin, Shenzhi Wang, Qingyun Wu, Zilong Zheng, Gao Huang
+  - Key: Self-play reasoning, zero external data, self-proposed tasks, curriculum learning, code executor as unified feedback
+  - ExpEnv: Coding and mathematical reasoning tasks, cross-model-scale experiments
+
+- [CURE: Co-Evolving Coders and Unit Testers via Reinforcement Learning](https://arxiv.org/abs/2506.03136) 
+  - Yinjie Wang, Ling Yang, Ye Tian, Ke Shen, Mengdi Wang
+  - Key: Co-evolution of code generation and unit test generation, interaction-based rewards without ground-truth code, test-time scaling, agentic unit test generation
+  - ExpEnv: SWE-bench Verified, unit test generation benchmarks, 4B model achieving 64.8% inference efficiency
+
+- [Enigmata: Scaling Logical Reasoning in Large Language Models with Synthetic Verifiable Puzzles](https://arxiv.org/abs/2505.19914) 
+  - Jiangjie Chen, Qianyu He, Siyu Yuan, Aili Chen, Zhicheng Cai, Weinan Dai, Hongli Yu, Jiaze Chen, Xuefeng Li, Qiying Yu, Hao Zhou, Mingxuan Wang
+  - Key: Puzzle reasoning, generator-verifier design, 36 tasks across 7 categories, multi-task RLVR, 418K competition-level problems
+  - ExpEnv: ENIGMATA-Eval, ARC-AGI (32.8%), ARC-AGI 2 (0.6%), AIME (2024-2025), BeyondAIME, GPQA (Diamond)
+
+- [To Think or Not To Think: A Study of Thinking in Rule-Based Visual Reinforcement Fine-Tuning](https://openreview.net/forum?id=YexxvBGwQM&referrer=%5Bthe%20profile%20of%20Kaipeng%20Zhang%5D(%2Fprofile%3Fid%3D~Kaipeng_Zhang1)) 
+  - Ming Li, Jike Zhong, Shitian Zhao, Yuxiang Lai, Haoquan Zhang, Wang Bill Zhu, Kaipeng Zhang
+  - Key: Thinking vs No-Thinking RFT, visual perception tasks, overthinking in MLLMs, equality accuracy reward, Adaptive-Thinking method
+  - ExpEnv: Six diverse visual tasks across different model sizes and types, image classification benchmarks
+
+- [Trust, But Verify: A Self-Verification Approach to Reinforcement Learning with Verifiable Rewards](https://arxiv.org/abs/2505.13445) 
+  - Xiaoyuan Liu, Tian Liang, Zhiwei He, Jiahao Xu, Wenxuan Wang, Pinjia He, Zhaopeng Tu, Haitao Mi, Dong Yu
+  - Key: Self-verification in RLVR, RISE framework, simultaneous training of problem-solving and self-verification, online RL for both tasks
+  - ExpEnv: Mathematical reasoning benchmarks, verification compute analysis
+
+- [Beyond Verifiable Rewards: Scaling Reinforcement Learning in Language Models to Unverifiable Data](https://arxiv.org/abs/2503.19618) 
+  - Yunhao Tang, Sid Wang, Lovish Madaan, Remi Munos
+  - Key: JEPO algorithm, Jensen's evidence lower bound, unverifiable data, chain-of-thought as latent variable, extending RLVR to semi-verifiable data
+  - ExpEnv: Math (verifiable), numina and numina-proof (semi-verifiable/unverifiable), test set likelihood evaluation
+
+- [RLVR-World: Training World Models with Reinforcement Learning](https://openreview.net/forum?id=jpiSagi8aV) 
+  - Jialong Wu, Shaofeng Yin, Ningya Feng, Mingsheng Long
+  - Key: World models with RLVR, task-specific optimization beyond MLE, transition prediction metrics as rewards, autoregressive tokenized sequences
+  - ExpEnv: Text games, web navigation, robot manipulation, language-based and video-based world models
+
+- [SeRL: Self-play Reinforcement Learning for Large Language Models with Limited Data](https://arxiv.org/abs/2505.20347) 
+  - Wenkai Fang, Shunyu Liu, Yang Zhou, Kongcheng Zhang, Tongya Zheng, Kaixuan Chen, Mingli Song, Dacheng Tao
+  - Key: Self-instruction generation, self-rewarding via majority-voting, bootstrapping with limited initial data, online filtering strategies
+  - ExpEnv: Various reasoning benchmarks across different LLM backbones
+
+- [Learning to Reason under Off-Policy Guidance](https://arxiv.org/abs/2504.14945) 
+  - Jianhao Yan, Yafu Li, Zican Hu, Zhi Wang, Ganqu Cui, Xiaoye Qu, Yu Cheng, Yue Zhang
+  - Key: LUFFY framework, off-policy reasoning traces, Mixed-Policy GRPO, policy shaping via regularized importance sampling, learning beyond initial capabilities
+  - ExpEnv: Six math benchmarks, out-of-distribution tasks, weak model training scenarios
+
+- [SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution](https://arxiv.org/abs/2502.18449) 
+  - Yuxiang Wei, Olivier Duchenne, Jade Copet, Quentin Carbonneaux, Lingming Zhang, Daniel Fried, Gabriel Synnaeve, Rishabh Singh, Sida Wang
+  - Key: Software engineering with RL, lightweight rule-based reward, open-source software evolution data, Llama3-SWE-RL-70B achieving 41.0% on SWE-bench Verified
+  - ExpEnv: SWE-bench Verified, function coding, library use, code reasoning, mathematics, general language understanding
+
+- [rStar-Coder: Scaling Competitive Code Reasoning with a Large-Scale Verified Dataset](https://arxiv.org/abs/2505.21297) 
+  - Yifei Liu, Li Lyna Zhang, Yi Zhu, Bingcheng Dong, Xudong Zhou, Ning Shang, Fan Yang, Cheng Li, Mao Yang
+  - Key: 418K competition-level code problems, 580K long-reasoning solutions, input-output test case synthesis pipeline, mutual verification mechanism
+  - ExpEnv: LiveCodeBench (57.3% for 7B), USA Computing Olympiad (16.15% avg for 7B, outperforming QWQ-32B)
+
+- [SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond](https://openreview.net/pdf?id=XtNiw8OQsy) 
+  - Junteng Liu, Yuanxiang Fan, Jiang Zhuo, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Mozhi Zhang, Pengyu Zhao, Junxian He
+  - Key: Logical reasoning as foundation for general reasoning, 35 diverse logical reasoning tasks, controlled synthesis with adjustable difficulty, mixing with math/coding tasks
+  - ExpEnv: BBEH (outperforming DeepSeek-R1-Distill-Qwen-32B by 6 points), state-of-the-art logical reasoning performance
+
+- [SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning](https://openreview.net/pdf/c3403842de341324f63358f1732f1518761661f2.pdf) 
+  - Xiao Liang, Zhong-Zhi Li, Yeyun Gong, Yang Wang, Hengyuan Zhang, Yelong Shen, Ying Nian Wu, Weizhu Chen
+  - Key: Self-aware weakness identification, problem synthesis targeting model deficiencies, core concept extraction from failure cases, weakness-driven augmentation
+  - ExpEnv: Eight mainstream reasoning benchmarks, 10% gain on 7B models, 7.7% gain on 32B models
+
+- [AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning](https://arxiv.org/abs/2505.16400) 
+  - Yang Chen, Zhuolin Yang, Zihan Liu, Chankyu Lee, Peng Xu, Mohammad Shoeybi, Bryan Catanzaro, Wei Ping
+  - Key: Math-only then code-only RL training sequence, curriculum learning with progressive response lengths, robust data curation for challenging prompts, on-policy parameter updates
+  - ExpEnv: AIME 2025 (+14.6%/+17.2% for 7B/14B), LiveCodeBench (+6.8%/+5.8% for 7B/14B)
+
+- [Agentic RL Scaling Law: Spontaneous Code Execution for Mathematical Problem Solving](https://openreview.net/pdf?id=kXieirlPjF) 
+  - Xinji Mai, Haotian Xu, Xing W, Weinong Wang, Yingying Zhang, Wenqiang Zhang
+  - Key: ZeroTIR (Tool-Integrated Reasoning), spontaneous code execution without supervised tool-use examples, RL scaling laws for tool use, predictable metrics scaling
+  - ExpEnv: Math benchmarks, standard RL algorithms comparison
+
+- [Rethinking Verification for LLM Code Generation: From Generation to Testing](https://arxiv.org/abs/2507.06920) 
+  - Zihan Ma, Taolin Zhang, Maosongcao, Junnan Liu, Wenwei Zhang, Minnan Luo, Songyang Zhang, Kai Chen
+  - Key: Test-case generation (TCG) task, multi-dimensional thoroughness metrics, human-LLM collaborative method (SAGA), TCGBench benchmark
+  - ExpEnv: TCGBench (90.62% detection rate), LiveCodeBench-v6 (10.78% higher Verifier Acc), test suite quality evaluation
+
+- [ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models](https://arxiv.org/abs/2505.24864) 
+  - Mingjie Liu, Shizhe Diao, Ximing Lu, Jian Hu, Xin Dong, Yejin Choi, Jan Kautz, Yi Dong
+  - Key: Prolonged RL training, KL divergence control, reference policy resetting, diverse task suite, novel reasoning strategies inaccessible to base models
+  - ExpEnv: Wide range of pass@k evaluations, base model competence vs training duration analysis
+
+- [Scaling Code-Assisted Chain-of-Thoughts and Instructions for Model Reasoning](https://arxiv.org/abs/2510.04081) 
+  - Honglin Lin, Qizhi Pei, Zhuoshi Pan, Yu Li, Xin Gao, Juntao Li, Conghui He, Lijun Wu
+  - Key: Caco framework, code-assisted CoT, automated validation via code execution, reverse-engineering to natural language instructions, Caco-1.3M dataset
+  - ExpEnv: Mathematical reasoning benchmarks, code-anchored verification, instruction diversity analysis
+
+- [The Surprising Effectiveness of Negative Reinforcement in LLM Reasoning](https://arxiv.org/abs/2506.01347) 
+  - Xinyu Zhu, Mengzhou Xia, Zhepei Wei, Wei-Lin Chen, Danqi Chen, Yu Meng
+  - Key: Negative Sample Reinforcement (NSR), training with only negative samples, Pass@k across entire spectrum, gradient analysis, upweighting NSR
+  - ExpEnv: MATH, AIME 2025, AMC23, Qwen2.5-Math-7B, Qwen3-4B, Llama-3.1-8B-Instruct
+
+- [Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling](https://arxiv.org/abs/2505.11792) 
+  - Yitian Chen, Jingfan Xia, Siyu Shao, Dongdong Ge, Yinyu Ye
+  - Key: Optimization problem formulation, Solver-Informed RL (SIRL), executable code and .lp file assessment, instance-level mathematical model verification, instance-enhanced self-consistency
+  - ExpEnv: Diverse public optimization benchmarks, surpassing DeepSeek-V3 and OpenAI-o3
+
+- [ATLAS: Autoformalizing Theorems through Lifting, Augmentation, and Synthesis of Data](https://openreview.net/pdf?id=MlJyAvQaxp) 
+  - Xiaoyang Liu, Kangjie Bao, Jiashuo Zhang, Yunqi Liu, Yu Chen, Yuntian Liu, Yang Jiao, Tao Luo
+  - Key: Autoformalization, Lean 4, expert iteration with knowledge distillation, structural augmentation strategies, 117k undergraduate-level theorem statements
+  - ExpEnv: All benchmarks (p<0.05, two-sided t-test), outperforming Herald Translator and Kimina-Autoformalizer
+
+- [QiMeng-CodeV-R1: Reasoning-Enhanced Verilog Generation](https://openreview.net/pdf/d8c56839b04b28b0b8cf304db2a8b3d12509386e.pdf) 
+  - Yaoyu Zhu, Di Huang, Hanqi Lyu, Xiaoyun Zhang, Chongxiao Li, Wenxuan Shi, Yutong Wu, Jianan Mu, Jinghua Wang, Yang zhao, Pengwei Jin, Shuyao Cheng, Shengwen Liang, Xishan Zhang, Rui Zhang, Zidong Du, Qi Guo, Xing Hu, Yunji Chen
+  - Key: Verilog generation with RLVR, rule-based testbench generator, round-trip data synthesis, distill-then-RL pipeline, adaptive DAPO algorithm
+  - ExpEnv: VerilogEval v2 (68.6% pass@1), RTLLM v1.1 (72.9% pass@1), surpassing 671B DeepSeek-R1 on RTLLM
+
+- [QiMeng-SALV: Signal-Aware Learning for Verilog Code Generation](https://openreview.net/pdf/4263b7b6c002fbd003c4d4349a6c8cb02ea3cfee.pdf) 
+  - Yang Zhang, Rui Zhang, Jiaming Guo, Huang Lei, Di Huang, Yunpu Zhao, Shuyao Cheng, Pengwei Jin, Chongxiao Li, Zidong Du, Xing Hu, Qi Guo, Yunji Chen
+  - Key: Signal-level optimization, verified signal-aware implementations extraction, Abstract Syntax Tree (AST) for code segments, signal-aware DPO
+  - ExpEnv: VerilogEval, RTLLM, 7B matching DeepSeek v3 671B performance
+
+- [miniF2F-Lean Revisited: Reviewing Limitations and Charting a Path Forward](https://arxiv.org/abs/2511.03108) 
+  - Azim Ospanov, Farzan Farnia, Roozbeh Yousefzadeh
+  - Key: Formal reasoning, automated theorem proving, Lean prover, miniF2F benchmark analysis, discrepancy correction, miniF2F-v2 with verified statements
+  - ExpEnv: miniF2F original vs miniF2F-v2, full theorem proving pipeline evaluation (70% on v2 vs 40% on original)
+
+- [SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues in Real-World Applications](https://openreview.net/forum?id=yRxXTdElLv) 
+  - Jinyang Li, Xiaolong Li, Ge Qu, Per Jacobsson, Bowen Qin, Binyuan Hui, Shuzheng Si, Nan Huo, Xiaohan Xu, Yue Zhang, Ziwei Tang, Yuanshuai Li, Florensia Widjaja, Xintong Zhu, Feige Zhou, Yongfeng Huang, Yannis Papakonstantinou, Fatma Ozcan, Chenhao Ma, Reynold Cheng
+  - Key: SQL issue debugging, BIRD-CRITIC benchmark (530 PostgreSQL + 570 multi-dialect tasks), SQL-Rewind strategy, f-Plan Boosting, BIRD-Fixer agent
+  - ExpEnv: BIRD-CRITIC-PG (38.11% for 14B), BIRD-CRITIC-Multi (29.65% for 14B), surpassing Claude-3.7-Sonnet and GPT-4.1
+
+</details>
+
+#### ICML 2025
+
+<details open>
+  <summary>Click to expand / collapse</summary>
+
+- [SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training](https://openreview.net/pdf?id=dYur3yabMj)
+  - Tianzhe Chu, Yuexiang Zhai, Jihan Yang, Shengbang Tong, Saining Xie, Dale Schuurmans, Quoc V. Le, Sergey Levine, Yi Ma
+  - Key: Reinforcement Learning, Supervised Fine-tuning, Generalization, Memorization
+  - ExpEnv: GeneralPoints, V-IRL
+
+- [VinePPO: Refining Credit Assignment in RL Training of LLMs](https://openreview.net/pdf?id=Myx2kJFzAn)
+  - Amirhossein Kazemnejad, Milad Aghajohari, Eva Portelance, Alessandro Sordoni, Siva Reddy, Aaron Courville, Nicolas Le Roux
+  - Key: reinforcement learning, large language models, credit assignment, PPO, Monte Carlo estimation
+  - ExpEnv: MATH, GSM8K
+
+- [Controlling Large Language Model with Latent Action](https://openreview.net/pdf?id=cEKrGCFXPA)
+  - Chengxing Jia, Ziniu Li, Pengyuan Wang, Yi-Chen Li, Zhenyu Hou, Yuxiao Dong, Yang Yu
+  - Key: reinforcement learning, latent action space, controllable language models, inverse dynamics, policy learning
+  - ExpEnv: math500, Countdown Game, Alfworld, Scienceworld
+
+- [Emergent Misalignment: Narrow Finetuning Can Produce Broadly Misaligned LLMs](https://openreview.net/pdf?id=aOIJ2gVRWW)
+  - Jan Betley, Daniel Tan, Niels Warncke, Anna Sztyber-Betley, Xuchan Bao, Martín Soto, Nathan Labenz, Owain Evans
+  - Key: emergent misalignment, insecure code, deceptive behavior, alignment, dataset intent, finetuning impact
+  - ExpEnv: GPT-4o, Qwen2.5-32B-Instruct, Mistral-Small-2409, HumanEval, TruthfulQA, StrongREJECT, Machiavelli
+
+- [Reasoning Through Execution: Unifying Process and Outcome Rewards for Code Generation](https://openreview.net/pdf?id=pLQtovjXiw)
+  - Zhuohao Yu, Weizheng Gu, Yidong Wang, Xingru Jiang, Zhengran Zeng, Jindong Wang, Wei Ye, Shikun Zhang
+  - Key: code generation, process supervision, outcome supervision, reasoning, execution verification
+  - ExpEnv: HumanEval, MBPP, LBPP
+
+- [Demystifying Long Chain-of-Thought Reasoning](https://openreview.net/pdf?id=OLodUbcWjB)
+  - Shiming Yang, Yuxuan Tong, Xinyao Niu, Graham Neubig, Xiang Yue
+  - Key: long chain-of-thought, reinforcement learning, supervised fine-tuning, reward shaping, verifiable rewards
+  - ExpEnv: MATH-500, AIME 2024, TheoremQA, MMLU-Pro-1k
+
+- [MA-LoT: Model-Collaboration Lean-based Long Chain-of-Thought Reasoning enhances Formal Theorem Proving](https://openreview.net/pdf?id=AzF9xAMrBK)
+  - Ruida Wang, Rui Pan, Yuxin Li, Jipeng Zhang, Yizhen Jia, Shizhe Diao, Renjie Pi, Junjie Hu, Tong Zhang
+  - Key: theorem proving, formal verification, Lean4, large language models, model collaboration, chain-of-thought
+  - ExpEnv: MiniF2F-Test
+
+- [SHIELDAGENT: Shielding Agents via Verifiable Safety Policy Reasoning](https://openreview.net/pdf?id=DkRYImuQA9)
+  - Zhaorun Chen, Mintong Kang, Bo Li
+  - Key: LLM agents, safety policy, guardrails, probabilistic reasoning, policy verification
+  - ExpEnv: SHIELDAGENT-BENCH (6 web environments), ST-WebAgentBench, VWA-Adv, AgentHarm
+
+- [TOPLOC: A Locality Sensitive Hashing Scheme for Trustless Verifiable Inference](https://openreview.net/pdf?id=8PJmKfeDdp)
+  - Jack Min Ong, Matthew Di Ferrante, Aaron Pazdera, Ryan Garner, Sami Jaghouar, Manveer Basra, Max Ryabinin, Johannes Hagemann
+  - Key: verifiable inference, locality-sensitive hashing, polynomial encoding, trustless AI, LLM verification
+  - ExpEnv: Llama 3.1-8B-Instruct, Intellect-1-Instruct, Gemma-2-9b-it, UltraChat dataset
+
+- [Brain Bandit: A Biologically Grounded Neural Network for Efficient Control of Exploration](https://openreview.net/forum?id=RWJX5F5I9g)
+  - Chen Jiang, Jiahui An, Yating Liu, Ni Ji
+  - Key: explore-exploit, stochastic Hopfield net, Thompson sampling, brain-inspired RL
+  - ExpEnv: MAB tasks, MDP tasks
+
+</details>
+
+#### Other 2025 Papers
 
 <details open>
   <summary>Click to expand / collapse</summary>
@@ -245,244 +449,183 @@ format:
   - Zhiyuan Zeng, Qinyuan Cheng, Zhangyue Yin, Yefei He, Jinpeng Wang, et al.
   - Key: Adaptive Environments, Verifiable Rewards, Environment Scaling, Curriculum Learning
   - ExpEnv: RLVE-Gym
-- [Game-RL: Synthesizing Multimodal Verifiable Game Data to Boost VLMs’ General Reasoning](https://openreview.net/pdf?id=e4FqU4SyHL)
+
+- [Game-RL: Synthesizing Multimodal Verifiable Game Data to Boost VLMs' General Reasoning](https://openreview.net/pdf?id=e4FqU4SyHL)
   - Jingqi Tong, Jixin Tang, Hangcheng Li, Yurong Mou, Ming Zhang, Jun Zhao, Yanbo Wen, et al.
   - Key: Vision Language Model, Reasoning, Data Synthesis, Game Playing, Visual Question Answering, Data Sets or Data Repositories, Benchmarks
   - ExpEnv: GameQA, CharXiv, MathVerse, MathVision, MathVista, MMBench, MMMU-Pro, MMMU
-- [MT-R1-Zero: Advancing LLM-based Machine Translation via R1-Zero-like Reinforcement Learning](https://aclanthology.org/2025.findings-emnlp.1015/) (EMNLP 2025 Findings)
+
+- [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/pdf/2501.12948)
+  - Daya Guo, Dejian Yang, Haowei Zhang *et al.* (DeepSeek-AI)
+  - Key: GRPO, pure-RL reasoning, distillation to 1.5 B–70 B, open checkpoints
+  - ExpEnv: AIME-2024, MATH-500, Codeforces, LiveCodeBench, GPQA-Diamond, SWE-Bench
+
+- [Demystifying Long Chain-of-Thought Reasoning in LLMs](https://www.alphaxiv.org/abs/2502.03373)
+  - IN.AI Research Team
+  - Key: cosine length-scaling reward, repetition penalty, stable long CoT
+  - ExpEnv: GSM8K, MATH, mixed STEM sets
+
+- [Exploring the Limit of Outcome Reward for Learning Mathematical Reasoning](https://www.alphaxiv.org/abs/2502.06781)
+  - Shanghai AI Lab
+  - Key: outcome-only reward, sparse-signal RL, math-centric limits
+  - ExpEnv: MATH-Benchmark, GSM8K, AIME, proof datasets
+
+- [Kimi K 1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/pdf/2501.12599)
+  - Moonshot AI
+  - Key: curriculum RL, large-batch PPO, scalable infra
+  - ExpEnv: multi-domain reasoning, long-context writing, agent benchmarks
+
+- [S²R: Teaching LLMs to Self-Verify and Self-Correct via Reinforcement Learning](https://arxiv.org/pdf/2502.12853)
+  - Tencent AI Lab
+  - Key: self-verification & correction loops, dual-reward, safety alignment
+  - ExpEnv: math QA, code generation, natural-language inference
+
+- [Can 1B LLM Surpass 405B LLM? Rethinking Compute-Optimal Test-Time Scaling](https://www.alphaxiv.org/abs/2502.06703)
+  - Tsinghua University
+  - Key: compute-optimal scaling, small-vs-large model trade-offs
+  - ExpEnv: reasoning benchmarks, test-time compute scaling
+
+- [QLASS: Boosting Language Agent Inference via Q-Guided Stepwise Search](https://arxiv.org/pdf/2502.02584)
+  - UCLA (Yizhou Sun Lab)
+  - Key: Q-guided stepwise search, agent inference efficiency
+  - ExpEnv: web-agent tasks, reasoning QA
+
+- [Process Reward Models That Think](https://arxiv.org/abs/2504.16828)
+  - University of Michigan
+  - Key: process reward modelling, reasoning guidance
+  - ExpEnv: reasoning QA, code tasks
+
+- [THINKPRUNE: Pruning Long Chain-of-Thought of LLMs via Reinforcement Learning](https://arxiv.org/pdf/2504.01296)
+  - *Anonymous*
+  - Key: CoT pruning through RL, latency reduction
+  - ExpEnv: GSM8K, assorted reasoning sets
+
+- [GPG: A Simple and Strong Reinforcement Learning Baseline for Model Reasoning](https://arxiv.org/pdf/2504.02546)
+  - *TBD*
+  - Key: lightweight RL baseline, strong reasoning gains
+  - ExpEnv: diverse reasoning benchmarks
+
+- [When To Solve, When To Verify: Compute-Optimal Problem Solving and Generative Verification for LLM Reasoning](https://arxiv.org/pdf/2504.01005)
+  - Google DeepMind
+  - Key: dynamic solve-vs-verify decision, compute optimality
+  - ExpEnv: math & code tasks
+
+- [SWEET-RL: Training Multi-Turn LLM Agents on Collaborative Reasoning Tasks](https://arxiv.org/pdf/2503.15478)
+  - Meta, UC Berkeley
+  - Key: multi-turn agent RL, collaborative reasoning
+  - ExpEnv: agent task suites
+
+- [L1: Controlling How Long a Reasoning Model Thinks With Reinforcement Learning](https://www.arxiv.org/pdf/2503.04697)
+  - Carnegie Mellon University
+  - Key: explicit control of reasoning steps via RL
+  - ExpEnv: GSM8K, MATH
+
+- [Scaling Test-Time Compute Without Verification or RL is Suboptimal](https://arxiv.org/pdf/2502.12118)
+  - CMU, UC Berkeley
+  - Key: verifier-based vs verifier-free compute scaling
+  - ExpEnv: reasoning benchmarks
+
+- [DAST: Difficulty-Adaptive Slow-Thinking for Large Reasoning Models](https://arxiv.org/pdf/2503.04472)
+  - Unicom Data Intelligence
+  - Key: difficulty-adaptive thinking length
+  - ExpEnv: reasoning sets
+
+- [Reasoning with Reinforced Functional Token Tuning](https://arxiv.org/pdf/2502.13389)
+  - Zhejiang University, Alibaba Cloud Computing
+  - Key: functional token tuning, RL-aided reasoning
+  - ExpEnv: reasoning QA, code
+
+- [Provably Optimal Distributional RL for LLM Post-Training](https://arxiv.org/pdf/2502.20548)
+  - Cornell & Harvard
+  - Key: distributional RL theory for LLM post-training
+  - ExpEnv: synthetic reasoning, math tasks
+
+- [On the Emergence of Thinking in LLMs I: Searching for the Right Intuition](https://www.alphaxiv.org/abs/2502.06773)
+  - MIT
+  - Key: self-play RL, emergent reasoning patterns
+  - ExpEnv: reasoning games, maths puzzles
+
+- [STP: Self-Play LLM Theorem Provers with Iterative Conjecturing and Proving](https://arxiv.org/pdf/2502.00212)
+  - Stanford (Tengyu Ma)
+  - Key: theorem proving via self-play, sparse-reward tackling
+  - ExpEnv: proof assistant datasets
+
+- [A Sober Look at Progress in Language Model Reasoning: Pitfalls and Paths to Reproducibility](https://arxiv.org/pdf/2504.07086)
+  - University of Cambridge, University of Tübingen
+  - Key: evaluation pitfalls, reproducibility guidelines
+  - ExpEnv: multiple reasoning benchmarks
+
+- [Recitation over Reasoning: How Cutting-Edge LMs Fail on Elementary Reasoning Problems](https://arxiv.org/pdf/2504.00509)
+  - ByteDance Seed
+  - Key: fragility to minor perturbations, arithmetic reasoning
+  - ExpEnv: elementary school-level arithmetic tasks
+
+- [Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad](https://arxiv.org/pdf/2503.21934v1)
+  - ETH Zurich, INSAIT
+  - Key: Olympiad-level evaluation, zero-score phenomenon
+  - ExpEnv: 2025 USAMO problems
+
+- [(REINFORCE++) A Simple and Efficient Approach for Aligning Large Language Models](https://arxiv.org/pdf/2501.03262)
+  - Jian Hu *et al.*
+  - Key: REINFORCE++ algorithm, stability vs PPO/GRPO
+  - ExpEnv: RLHF alignment suites
+
+- [ReFT v3: Reasoning with Reinforced Fine-Tuning](https://arxiv.org/abs/2401.08967) (ACL 2025)
+  - Trung Le, Jiaqi Zhang *et al.*
+  - Key: single-stage RLFT, low-cost math alignment
+  - ExpEnv: GSM8K, MATH, SVAMP
+
+- [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/pdf/2402.03300)
+  - DeepSeek-AI
+  - Key: GRPO, math-only RL, verifier-guided sampling
+  - ExpEnv: MATH-500, AIME-2024, CNMO-2024
+
+- [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://arxiv.org/pdf/2405.14734)
+  - Shanghai AI Lab
+  - Key: reference-free preference optimisation, KL-free objective
+  - ExpEnv: AlpacaEval, helpful/harmless RLHF sets
+
+- [DeepSeek-Prover v1.5: Harnessing Proof Assistant Feedback for RL and MCTS](https://arxiv.org/abs/2408.08152)
+  - DeepSeek-AI
+  - Key: proof-assistant feedback, Monte-Carlo Tree Search
+  - ExpEnv: Lean theorem-proving benchmarks
+
+- [Tülu 3: Pushing Frontiers in Open Language Model Post-Training](https://arxiv.org/pdf/2411.15124)
+  - Nathan Lambert, Jacob Morrison, Valentina Pyatkin, Shengyi Huang, Hamish Ivison, Faeze Brahman, Lester James V. Miranda, Alisa Liu, Nouha Dziri, Xinxi Lyu, Yuling Gu, Saumya Malik, Victoria Graf, Jena D. Hwang, Jiangjiang Yang, Ronan Le Bras, Øyvind Tafjord, Chris Wilhelm, Luca Soldaini, Noah A. Smith, Yizhong Wang, Pradeep Dasigi, Hannaneh Hajishirzi
+  - Key: post-training, supervised finetuning (SFT), Direct Preference Optimization (DPO), RLVR, open LLMs
+  - ExpEnv: multi-task language-model benchmarks (Tülu 3 Eval, decontaminated standard suites)
+
+- [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599)
+  - Kimi Team – Angang Du, Bofei Gao, Bowei Xing, Changjiu Jiang, Cheng Chen, Cheng Li, … , Zongyu Lin
+  - Key: RL with LLMs, long-context scaling, policy optimization, long2short CoT, multi-modal reasoning
+  - ExpEnv: AIME, MATH 500, Codeforces, MathVista, LiveCodeBench
+
+- [Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/pdf/2402.01306)
+  - Stanford University, Contextual AI
+  - Key: prospect-theoretic objective for alignment
+  - ExpEnv: alignment evaluation suites
+
+- [UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/pdf/2503.21620)
+  - Zhengxi Lu, Yuxiang Chai, Yaxuan Guo, Xi Yin, Liang Liu, Hao Wang, Han Xiao, Shuai Ren, Guanjing Xiong, Hongsheng Li
+  - Key: rule-based rewards, GRPO, multimodal LLM, GUI grounding & action, data-efficient RFT (136 samples)
+  - ExpEnv: ScreenSpot, ScreenSpot-Pro, AndroidControl
+
+- [GUI-R1: A Generalist R1-Style Vision-Language Action Model for GUI Agents](https://arxiv.org/pdf/2504.10458)
+  - Run Luo, Lu Wang, Wanwei He, Xiaobo Xia
+  - Key: unified action space, GRPO, high-level GUI tasks, cross-platform (Win/Linux/Mac/Android/Web), data-efficient RFT (3 K samples)
+  - ExpEnv: ScreenSpot, ScreenSpot-Pro, GUI-Act-Web, OmniAct-Web, OmniAct-Desktop, AndroidControl-Low/High, GUI-Odyssey
+
+- [MT-R1-Zero: Advancing LLM-based Machine Translation via R1-Zero-like Reinforcement Learning](https://aclanthology.org/2025.findings-emnlp.1015/)
   - Zhaopeng Feng, Shaosheng Cao, Jiahan Ren, Jiayuan Su, Ruizhe Chen, Yan Zhang, Jian Wu, Zuozhu Liu
   - Key: Machine Translation, Rule-metric Mixed Reward
   - ExpEnv: BLEU, COMETKiwi, XCOMET
 
-- [Smart-Searcher: Incentivizing the Dynamic Knowledge Acquisition of LLMs via Reinforcement Learning](https://aclanthology.org/2025.findings-emnlp.731/) (EMNLP 2025 Findings)
+- [Smart-Searcher: Incentivizing the Dynamic Knowledge Acquisition of LLMs via Reinforcement Learning](https://aclanthology.org/2025.findings-emnlp.731/)
   - Huatong Song, Jinhao Jiang, Wenqing Tian, Zhipeng Chen, Yuhuan Wu, Jiahao Zhao, Yingqian Min, Xin Zhao, Lei Fang, Ji-Rong Wen
   - Key: Retrieval-Augmented Generation (RAG), Reinforcement Learning, Internal vs External Knowledge, Dynamic Switching
   - ExpEnv: Multi-hop QA benchmarks, Retrieval tasks
 
-- [SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training](https://openreview.net/pdf?id=dYur3yabMj) (ICML 2025)
-  - Tianzhe Chu, Yuexiang Zhai, Jihan Yang, Shengbang Tong, Saining Xie, Dale Schuurmans, Quoc V. Le, Sergey Levine, Yi Ma
-  - Key: Reinforcement Learning, Supervised Fine-tuning, Generalization, Memorization
-  - ExpEnv: GeneralPoints, V-IRL
-
-- [VinePPO: Refining Credit Assignment in RL Training of LLMs](https://openreview.net/pdf?id=Myx2kJFzAn) (ICML 2025)
-  - Amirhossein Kazemnejad, Milad Aghajohari, Eva Portelance, Alessandro Sordoni, Siva Reddy, Aaron Courville, Nicolas Le Roux  
-  - Key: reinforcement learning, large language models, credit assignment, PPO, Monte Carlo estimation  
-  - ExpEnv: MATH, GSM8K
-  
-- [Controlling Large Language Model with Latent Action](https://openreview.net/pdf?id=cEKrGCFXPA) (ICML 2025)
-  - Chengxing Jia, Ziniu Li, Pengyuan Wang, Yi-Chen Li, Zhenyu Hou, Yuxiao Dong, Yang Yu
-  - Key: reinforcement learning, latent action space, controllable language models, inverse dynamics, policy learning
-  - ExpEnv: math500, Countdown Game, Alfworld, Scienceworld
-  
-- [Emergent Misalignment: Narrow Finetuning Can Produce Broadly Misaligned LLMs](https://openreview.net/pdf?id=aOIJ2gVRWW) (ICML 2025)
-  - Jan Betley, Daniel Tan, Niels Warncke, Anna Sztyber-Betley, Xuchan Bao, Martín Soto, Nathan Labenz, Owain Evans
-  - Key: emergent misalignment, insecure code, deceptive behavior, alignment, dataset intent, finetuning impact
-  - ExpEnv: GPT-4o, Qwen2.5-32B-Instruct, Mistral-Small-2409, HumanEval, TruthfulQA, StrongREJECT, Machiavelli
-
-- [Reasoning Through Execution: Unifying Process and Outcome Rewards for Code Generation](https://openreview.net/pdf?id=pLQtovjXiw
-) (ICML 2025)
-  - Zhuohao Yu, Weizheng Gu, Yidong Wang, Xingru Jiang, Zhengran Zeng, Jindong Wang, Wei Ye, Shikun Zhang
-  - Key: code generation, process supervision, outcome supervision, reasoning, execution verification
-  - ExpEnv: HumanEval, MBPP, LBPP
-  
-- [Demystifying Long Chain-of-Thought Reasoning](https://openreview.net/pdf?id=OLodUbcWjB) (ICML 2025)
-  - Shiming Yang, Yuxuan Tong, Xinyao Niu, Graham Neubig, Xiang Yue
-  - Key: long chain-of-thought, reinforcement learning, supervised fine-tuning, reward shaping, verifiable rewards
-  - ExpEnv: MATH-500, AIME 2024, TheoremQA, MMLU-Pro-1k
-
-- [MA-LoT: Model-Collaboration Lean-based Long Chain-of-Thought Reasoning enhances Formal Theorem Proving](https://openreview.net/pdf?id=AzF9xAMrBK) (ICML 2025)
-  - Ruida Wang, Rui Pan, Yuxin Li, Jipeng Zhang, Yizhen Jia, Shizhe Diao, Renjie Pi, Junjie Hu, Tong Zhang
-  - Key: theorem proving, formal verification, Lean4, large language models, model collaboration, chain-of-thought
-  - ExpEnv: MiniF2F-Test
-  
-- [SHIELDAGENT: Shielding Agents via Verifiable Safety Policy Reasoning](https://openreview.net/pdf?id=DkRYImuQA9
-) (ICML 2025)
-  - Zhaorun Chen, Mintong Kang, Bo Li
-  - Key: LLM agents, safety policy, guardrails, probabilistic reasoning, policy verification
-  - ExpEnv: SHIELDAGENT-BENCH (6 web environments), ST-WebAgentBench, VWA-Adv, AgentHarm
-
-- [TOPLOC: A Locality Sensitive Hashing Scheme for Trustless Verifiable Inference](https://openreview.net/pdf?id=8PJmKfeDdp) (ICML 2025)
-  - Jack Min Ong, Matthew Di Ferrante, Aaron Pazdera, Ryan Garner, Sami Jaghouar, Manveer Basra, Max Ryabinin, Johannes Hagemann
-  - Key: verifiable inference, locality-sensitive hashing, polynomial encoding, trustless AI, LLM verification
-  - ExpEnv: Llama 3.1-8B-Instruct, Intellect-1-Instruct, Gemma-2-9b-it, UltraChat dataset
-  
-- [Brain Bandit: A Biologically Grounded Neural Network for Efficient Control of Exploration](https://openreview.net/forum?id=RWJX5F5I9g)  
-  - Chen Jiang, Jiahui An, Yating Liu, Ni Ji  
-  - Key: explore-exploit, stochastic Hopfield net, Thompson sampling, brain-inspired RL  
-  - ExpEnv: MAB tasks, MDP tasks  
-
-- [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/pdf/2501.12948)  
-  - Daya Guo, Dejian Yang, Haowei Zhang *et al.* (DeepSeek-AI)  
-  - Key: GRPO, pure-RL reasoning, distillation to 1.5 B–70 B, open checkpoints  
-  - ExpEnv: AIME-2024, MATH-500, Codeforces, LiveCodeBench, GPQA-Diamond, SWE-Bench  
-
-- [Demystifying Long Chain-of-Thought Reasoning in LLMs](https://www.alphaxiv.org/abs/2502.03373)  
-  - IN.AI Research Team  
-  - Key: cosine length-scaling reward, repetition penalty, stable long CoT  
-  - ExpEnv: GSM8K, MATH, mixed STEM sets  
-
-- [Exploring the Limit of Outcome Reward for Learning Mathematical Reasoning](https://www.alphaxiv.org/abs/2502.06781)  
-  - Shanghai AI Lab  
-  - Key: outcome-only reward, sparse-signal RL, math-centric limits  
-  - ExpEnv: MATH-Benchmark, GSM8K, AIME, proof datasets  
-
-- [Kimi K 1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/pdf/2501.12599)  
-  - Moonshot AI  
-  - Key: curriculum RL, large-batch PPO, scalable infra  
-  - ExpEnv: multi-domain reasoning, long-context writing, agent benchmarks  
-
-- [S²R: Teaching LLMs to Self-Verify and Self-Correct via Reinforcement Learning](https://arxiv.org/pdf/2502.12853)  
-  - Tencent AI Lab  
-  - Key: self-verification & correction loops, dual-reward, safety alignment  
-  - ExpEnv: math QA, code generation, natural-language inference  
-
-- [Can 1B LLM Surpass 405B LLM? Rethinking Compute-Optimal Test-Time Scaling](https://www.alphaxiv.org/abs/2502.06703) (arXiv)  
-  - Tsinghua University  
-  - Key: compute-optimal scaling, small-vs-large model trade-offs  
-  - ExpEnv: reasoning benchmarks, test-time compute scaling  
-
-- [QLASS: Boosting Language Agent Inference via Q-Guided Stepwise Search](https://arxiv.org/pdf/2502.02584) (arXiv)  
-  - UCLA (Yizhou Sun Lab)  
-  - Key: Q-guided stepwise search, agent inference efficiency  
-  - ExpEnv: web-agent tasks, reasoning QA  
-
-- [Solving Math Word Problems with Process- and Outcome-Based Feedback](https://arxiv.org/pdf/2211.14275) (NeurIPS 2023)  
-  - DeepMind  
-  - Key: process & outcome rewards, verifier feedback for math  
-  - ExpEnv: GSM8K, MATH  
-
-- [Process Reward Models That Think](https://arxiv.org/abs/2504.16828) (arXiv)  
-  - University of Michigan  
-  - Key: process reward modelling, reasoning guidance  
-  - ExpEnv: reasoning QA, code tasks  
-
-- [Learning to Reason under Off-Policy Guidance](https://arxiv.org/abs/2504.14945) (arXiv)  
-  - Shanghai AI Lab  
-  - Key: off-policy guidance for reasoning RL  
-  - ExpEnv: math and code benchmarks  
-
-- [THINKPRUNE: Pruning Long Chain-of-Thought of LLMs via Reinforcement Learning](https://arxiv.org/pdf/2504.01296) (arXiv)  
-  - *Anonymous*  
-  - Key: CoT pruning through RL, latency reduction  
-  - ExpEnv: GSM8K, assorted reasoning sets  
-
-- [GPG: A Simple and Strong Reinforcement Learning Baseline for Model Reasoning](https://arxiv.org/pdf/2504.02546) (arXiv)  
-  - *TBD*  
-  - Key: lightweight RL baseline, strong reasoning gains  
-  - ExpEnv: diverse reasoning benchmarks  
-
-- [When To Solve, When To Verify: Compute-Optimal Problem Solving and Generative Verification for LLM Reasoning](https://arxiv.org/pdf/2504.01005) (arXiv)  
-  - Google DeepMind 
-  - Key: dynamic solve-vs-verify decision, compute optimality  
-  - ExpEnv: math & code tasks  
-
-- [SWEET-RL: Training Multi-Turn LLM Agents on Collaborative Reasoning Tasks](https://arxiv.org/pdf/2503.15478) (arXiv)  
-  - Meta, UC Berkeley  
-  - Key: multi-turn agent RL, collaborative reasoning  
-  - ExpEnv: agent task suites  
-
-- [L1: Controlling How Long a Reasoning Model Thinks With Reinforcement Learning](https://www.arxiv.org/pdf/2503.04697) (arXiv)  
-  - Carnegie Mellon University  
-  - Key: explicit control of reasoning steps via RL  
-  - ExpEnv: GSM8K, MATH  
-
-- [Scaling Test-Time Compute Without Verification or RL is Suboptimal](https://arxiv.org/pdf/2502.12118) (arXiv)  
-  - CMU, UC Berkeley  
-  - Key: verifier-based vs verifier-free compute scaling  
-  - ExpEnv: reasoning benchmarks  
-
-- [DAST: Difficulty-Adaptive Slow-Thinking for Large Reasoning Models](https://arxiv.org/pdf/2503.04472) (arXiv)  
-  - Unicom Data Intelligence 
-  - Key: difficulty-adaptive thinking length  
-  - ExpEnv: reasoning sets  
-  
-- [Reasoning with Reinforced Functional Token Tuning](https://arxiv.org/pdf/2502.13389) (arXiv)  
-  - Zhejiang University, Alibaba Cloud Computing 
-  - Key: functional token tuning, RL-aided reasoning  
-  - ExpEnv: reasoning QA, code  
-
-- [Provably Optimal Distributional RL for LLM Post-Training](https://arxiv.org/pdf/2502.20548) (arXiv)  
-  - Cornell & Harvard  
-  - Key: distributional RL theory for LLM post-training  
-  - ExpEnv: synthetic reasoning, math tasks  
-
-- [On the Emergence of Thinking in LLMs I: Searching for the Right Intuition](https://www.alphaxiv.org/abs/2502.06773) (arXiv)  
-  - MIT  
-  - Key: self-play RL, emergent reasoning patterns  
-  - ExpEnv: reasoning games, maths puzzles  
-
-- [STP: Self-Play LLM Theorem Provers with Iterative Conjecturing and Proving](https://arxiv.org/pdf/2502.00212) (arXiv)  
-  - Stanford (Tengyu Ma)  
-  - Key: theorem proving via self-play, sparse-reward tackling  
-  - ExpEnv: proof assistant datasets  
-
-- [A Sober Look at Progress in Language Model Reasoning: Pitfalls and Paths to Reproducibility](https://arxiv.org/pdf/2504.07086) (arXiv)  
-  - University of Cambridge, University of Tübingen
-  - Key: evaluation pitfalls, reproducibility guidelines  
-  - ExpEnv: multiple reasoning benchmarks  
-
-- [Recitation over Reasoning: How Cutting-Edge LMs Fail on Elementary Reasoning Problems](https://arxiv.org/pdf/2504.00509) (arXiv)  
-  - ByteDance Seed  
-  - Key: fragility to minor perturbations, arithmetic reasoning  
-  - ExpEnv: elementary school-level arithmetic tasks  
-
-- [Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad](https://arxiv.org/pdf/2503.21934v1) (arXiv)  
-  - ETH Zurich, INSAIT 
-  - Key: Olympiad-level evaluation, zero-score phenomenon  
-  - ExpEnv: 2025 USAMO problems  
-
-- [(REINFORCE++) A Simple and Efficient Approach for Aligning Large Language Models](https://arxiv.org/pdf/2501.03262) (arXiv)  
-  - Jian Hu *et al.*   
-  - Key: REINFORCE++ algorithm, stability vs PPO/GRPO  
-  - ExpEnv: RLHF alignment suites  
-
-- [ReFT v3: Reasoning with Reinforced Fine-Tuning](https://arxiv.org/abs/2401.08967) (ACL 2025 Long)  
-  - Trung Le, Jiaqi Zhang *et al.*  
-  - Key: single-stage RLFT, low-cost math alignment  
-  - ExpEnv: GSM8K, MATH, SVAMP  
-
-- [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/pdf/2402.03300) (Technical Report)  
-  - DeepSeek-AI  
-  - Key: GRPO, math-only RL, verifier-guided sampling  
-  - ExpEnv: MATH-500, AIME-2024, CNMO-2024  
-
-- [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://arxiv.org/pdf/2405.14734) (arXiv)  
-  - Shanghai AI Lab  
-  - Key: reference-free preference optimisation, KL-free objective  
-  - ExpEnv: AlpacaEval, helpful/harmless RLHF sets  
-
-- [DeepSeek-Prover v1.5: Harnessing Proof Assistant Feedback for RL and MCTS](https://arxiv.org/abs/2408.08152) (arXiv)  
-  - DeepSeek-AI  
-  - Key: proof-assistant feedback, Monte-Carlo Tree Search  
-  - ExpEnv: Lean theorem-proving benchmarks  
-
-- [Tülu 3: Pushing Frontiers in Open Language Model Post-Training](https://arxiv.org/pdf/2411.15124) (arXiv) 
-  - Nathan Lambert, Jacob Morrison, Valentina Pyatkin, Shengyi Huang, Hamish Ivison, Faeze Brahman, Lester James V. Miranda, Alisa Liu, Nouha Dziri, Xinxi Lyu, Yuling Gu, Saumya Malik, Victoria Graf, Jena D. Hwang, Jiangjiang Yang, Ronan Le Bras, Øyvind Tafjord, Chris Wilhelm, Luca Soldaini, Noah A. Smith, Yizhong Wang, Pradeep Dasigi, Hannaneh Hajishirzi  
-  - Key: post-training, supervised finetuning (SFT), Direct Preference Optimization (DPO), RLVR, open LLMs  
-  - ExpEnv: multi-task language-model benchmarks (Tülu 3 Eval, decontaminated standard suites)  
-
-
-- [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599) (arXiv) 
-  - Kimi Team – Angang Du, Bofei Gao, Bowei Xing, Changjiu Jiang, Cheng Chen, Cheng Li, … , Zongyu Lin  
-  - Key: RL with LLMs, long-context scaling, policy optimization, long2short CoT, multi-modal reasoning  
-  - ExpEnv: AIME, MATH 500, Codeforces, MathVista, LiveCodeBench
-
-- [Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/pdf/2402.01306) (arXiv)  
-  - Stanford University, Contextual AI. 
-  - Key: prospect-theoretic objective for alignment  
-  - ExpEnv: alignment evaluation suites  
-
-- [UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/pdf/2503.21620)  
-  - Zhengxi Lu, Yuxiang Chai, Yaxuan Guo, Xi Yin, Liang Liu, Hao Wang, Han Xiao, Shuai Ren, Guanjing Xiong, Hongsheng Li  
-  - Key: rule-based rewards, GRPO, multimodal LLM, GUI grounding & action, data-efficient RFT (136 samples)  
-  - ExpEnv: ScreenSpot, ScreenSpot-Pro, AndroidControl  
-
-- [GUI-R1: A Generalist R1-Style Vision-Language Action Model for GUI Agents](https://arxiv.org/pdf/2504.10458)  
-  - Run Luo, Lu Wang, Wanwei He, Xiaobo Xia  
-  - Key: unified action space, GRPO, high-level GUI tasks, cross-platform (Win/Linux/Mac/Android/Web), data-efficient RFT (3 K samples)  
-  - ExpEnv: ScreenSpot, ScreenSpot-Pro, GUI-Act-Web, OmniAct-Web, OmniAct-Desktop, AndroidControl-Low/High, GUI-Odyssey
-
- </details>
+</details>
 
 ### 2024 & Earlier
 
