@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"git add README.md && git commit -m \\\"$(cat <<'EOF'\\nfix: clean ExpEnv field to remove model names, keep only benchmarks\\n\\n- Removed model names (Qwen, Llama, etc.) from ExpEnv field\\n- Ke...",
-  "error": "Exit code 1\nOn branch main\nYour branch is up to date with 'origin/main'.\n\nUntracked files:\n  (use \"git add <file>...\" to include in what will be committed)\n\t.omc/\n\nnothing added to commit but untracked files present (use \"git add\" to track)",
-  "timestamp": "2026-05-06T09:38:43.866Z",
-  "retry_count": 1
-}
