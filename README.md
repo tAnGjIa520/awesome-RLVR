@@ -69,7 +69,8 @@ Pull requests are welcome 🎉 — see [Contributing](#contributing) for guideli
 
 
 <pre>
-[2025-07-03] <b>New!</b> Initial public release of Awesome-RLVR 🎉
+[2026-05-06] <b>New!</b> Added 135 papers from ICLR 2026 and ICML 2026 🎉
+[2025-07-03] Initial public release of Awesome-RLVR
 </pre>
 
 
@@ -82,6 +83,9 @@ Pull requests are welcome 🎉 — see [Contributing](#contributing) for guideli
   - [Surveys \& Tutorials](#surveys--tutorials)
   - [Codebases](#codebases)
   - [Papers](#papers)
+    - [2026](#2026)
+      - [ICLR 2026](#iclr-2026)
+      - [ICML 2026](#icml-2026)
     - [2025](#2025)
       - [NeurIPS 2025](#neurips-2025)
       - [ICML 2025](#icml-2025)
@@ -219,6 +223,618 @@ format:
 
 ## Papers
 
+
+### 2026
+
+#### ICLR 2026
+
+<details open>
+  <summary>Click to expand / collapse</summary>
+
+- [RLVER: Reinforcement Learning with Verifiable Emotion Rewards for Empathetic Agents](https://openreview.net/pdf?id=P7wBg0vPTh)
+  - Peisong Wang, Ruotian Ma, Bang Zhang, Xingyu Chen, Zhiwei He, et al.
+  - Key: Large language models, Reinforcement Learning, Agent
+
+- [Rectifying LLM Thought from Lens of Optimization](https://openreview.net/pdf?id=bOMQmyR492)
+  - Junnan Liu, Hongwei Liu, Songyang Zhang, Kai Chen
+  - Key: Large Lanugae Model, Large Lanugae Model Reasoning, Reinforcement Learning with Verifiable Rewards
+
+- [EEPO: Exploration-Enhanced Policy Optimization via Sample-Then-Forget](https://openreview.net/pdf?id=ObF4WIMkY6)
+  - Liang Chen, Xueting Han, Qizhou Wang, Bo Han, Jing Bai, et al.
+  - Key: large language models, reasoning models, reinforcement learning, RLVR, exploration, unlearning
+  - ExpEnv: Qwen2, Llama3, Qwen3-8B-Base
+
+- [HiPO: Self-Hint Policy Optimization for RLVR](https://openreview.net/pdf?id=rcb20pHmT1)
+  - Deng Qiyuan, Kehai Chen, Min Zhang, Zhongwen Xu
+  - Key: Reinforcement Learning, Large Language Models, Mathematical Reasoning
+  - ExpEnv: AIME, CMIMC, BRUMO
+
+- [Sparse but Critical: A Token-Level Analysis of Distributional Shifts in RLVR Fine-Tuning of LLMs](https://openreview.net/pdf?id=8vWIXno8LW)
+  - Haoming Meng, Kexin Huang, Shaohang Wei, Chiyu Ma, Shuo Yang, et al.
+  - Key: LLM Reasoning, RLVR
+
+- [Supervised Reinforcement Learning: From Expert Trajectories to Step-wise Reasoning](https://openreview.net/pdf?id=Uro84w2xz5)
+  - Yihe Deng, I-Hung Hsu, Jun Yan, Zifeng Wang, Rujun Han, et al.
+  - Key: Reinforcement learning, Reasoning, Large Language Model, Agent
+
+- [RLBFF: Binary Flexible Feedback to bridge between Human Feedback & Verifiable Rewards](https://openreview.net/pdf?id=P3R3S6S5Km)
+  - Zhilin Wang, Jiaqi Zeng, Olivier Delalleau, Ellie Evans, Daniel Egert, et al.
+  - Key: reward modeling, model alignment, inference-time control, customization, LLM post-training
+  - ExpEnv: MT-Bench, WildBench, RM-Bench
+
+- [The Markovian Thinker: Architecture-Agnostic Linear Scaling of Reasoning](https://openreview.net/pdf?id=3As6AQ9ELI)
+  - Milad Aghajohari, Kamran Chitsaz, Amirhossein Kazemnejad, Sarath Chandar, Alessandro Sordoni, et al.
+  - Key: LLM Reasoning, RL for LLMs, Reasoning Models, Scalable Reasoning, Test-Time Scaling
+  - ExpEnv: DeepScaleR
+
+- [Generalization of RLVR Using Causal Reasoning as a Testbed](https://openreview.net/pdf?id=DZjbL9BuHs)
+  - Brian Lu, Hongyu Zhao, Shuo Sun, Hao Peng, Rui Ding, et al.
+  - Key: Large Language Models, Reinforcement Learning with Verifiable Rewards, Generalization, Causal Reasoning
+
+- [Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains](https://openreview.net/pdf?id=c1bTcrDmt4)
+  - Anisha Gunjal, Anthony Wang, Elaine Lau, Vaskar Nath, Yunzhong He, et al.
+  - Key: representation learning for language, datasets and benchmarks, reward modeling, reinforcement learning, natural langauge processing, large language models, reasoning, alignment
+  - ExpEnv: MATH, GPQA, HealthBench, GPQA-Diamond
+
+- [References Improve LLM Alignment in Non-Verifiable Domains](https://openreview.net/pdf?id=NoZgrya6Ua)
+  - Kejian Shi, Yixin Liu, PeiFeng Wang, Alexander Fabbri, Shafiq Joty, et al.
+  - Key: LLM Alignment; LLM-as-a-Judge; Alignment Evaluation; Preference Optimization
+  - ExpEnv: AlpacaEval, Arena-Hard
+
+- [Parameter-Efficient Reinforcement Learning using Prefix Optimization](https://openreview.net/pdf?id=SLhLUdlaqc)
+  - Itamar Rocha Filho, Rosie Zhao, Sham M. Kakade, Eran Malach, Samy Jelassi
+  - Key: reinforcement learning with verifiable rewards, parameter efficient tuning
+  - ExpEnv: MATH
+
+- [HARDTESTGEN: A High-Quality RL Verifier Generation Pipeline for LLM Algorithmic Coding](https://openreview.net/pdf?id=v3SzGCfAXN)
+  - Zhongmou He, Yee Man Choi, Kexun Zhang, Ivan Bercovich, Jiabao Ji, et al.
+  - Key: LLMs, RLVR, code generation
+
+- [Agnostics: Learning to Synthesize Code in Any Programming Language with a Universal Reinforcement Learning Environment](https://openreview.net/pdf?id=mjDT60Ffms)
+  - Aleksander Boruch-Gruszecki, Yangtian Zi, Zixuan Wu, Tejas Oberoi, Carolyn Jane Anderson, et al.
+  - Key: large language models, program synthesis, code generation, reinforcement learning, low-resource programming languages
+  - ExpEnv: MBPP, LiveCodeBench, CodeForces, MultiPL-E
+
+- [BAPO: Stabilizing Off-Policy Reinforcement Learning for LLMs via Balanced Policy Optimization with Adaptive Clipping](https://openreview.net/pdf?id=jIeJJqG7dz)
+  - Zhiheng Xi, Xin Guo, Yang Nan, Enyu Zhou, Junrui Shen, et al.
+  - Key: RLVR, LLM Reasoning
+  - ExpEnv: AIME
+
+- [Learning to Reason as Action Abstractions with Scalable Mid-Training RL](https://openreview.net/pdf?id=uWd9A1zp0Y)
+  - Shenao Zhang, Donghan Yu, Yihao Feng, Bowen Jin, Zhaoran Wang, et al.
+  - Key: reinforcement learning, large language model
+  - ExpEnv: HumanEval, MBPP, LiveCodeBench, CodeForces, Abstractions
+
+- [Diversity-Enhanced Reasoning for Subjective Questions](https://openreview.net/pdf?id=1Bf0tToGT1)
+  - Yumeng Wang, Zhiyuan Fan, Jiayu Liu, Jen-tse Huang, Yi R. Fung
+  - Key: LLM, subjective reasoning, diversity-enhanced training
+  - ExpEnv: MATH, AIME
+
+- [PROS: Towards Compute-Efficient RLVR via Rollout Prefix Reuse](https://openreview.net/pdf?id=lz1SRTcnUb)
+  - Baizhou Huang, Xiaojun Wan
+  - Key: RLVR, reasoning
+
+- [LongRLVR: Long-Context Reinforcement Learning Requires Verifiable Context Rewards](https://openreview.net/pdf?id=omVhYvyTPJ)
+  - Guanzheng Chen, Michael Qizhe Shieh, Lidong Bing
+  - Key: Large Language Models, Long Context, Reinforcement Learning with Verifiable Rewards
+  - ExpEnv: RULER-QA, LongBench
+
+- [Selective Expert Guidance for Effective and Diverse Exploration in Reinforcement Learning of LLMs](https://openreview.net/pdf?id=axlFycAkoL)
+  - Zishang Jiang, Jinyi Han, tingyun li, Xinyi Wang, Sihang Jiang, et al.
+  - Key: Large Language Models, Group Relative Policy Optimization
+
+- [Lookahead Tree-Based Rollouts for Enhanced Trajectory-Level Exploration in Reinforcement Learning with Verifiable Rewards](https://openreview.net/pdf?id=4nLvUk8edu)
+  - Shangyu Xing, Siyuan Wang, Chenyuan Yang, Xinyu Dai, Xiang Ren
+  - Key: RLVR, GRPO, rollout, LLM, reasoning
+
+- [Controllable Exploration in Hybrid-Policy RLVR for Multi-Modal Reasoning](https://openreview.net/pdf?id=5wxyCidRsK)
+  - Zhuoxu Huang, Mengxi Jia, Hao Sun, Xuelong Li, Jungong Han
+  - Key: Multi-Modal Reasoning, Reinforcement Learning from Verifiable Rewards
+
+- [Group Verification-based Policy Optimization for Interactive Coding Agents](https://openreview.net/pdf?id=RY47Tq0VsV)
+  - Silong Dai, Changzhi Sun, Haolun Wu, Huanran Zheng, Tao Ji, et al.
+  - Key: Large language model, Tool Learning, Reinforcement Learning
+  - ExpEnv: AppWorld
+
+- [Beyond Magnitude: Leveraging Direction of RLVR Updates for LLM Reasoning](https://openreview.net/pdf?id=r6Pw3RiMYL)
+  - Kexin Huang, Haoming Meng, Junkang Wu, Jinda Lu, Chiyu Ma, et al.
+  - Key: RLVR, LLM reasoning
+
+- [Curriculum Reinforcement Learning from Easy to Hard Tasks Improves LLM Reasoning](https://openreview.net/pdf?id=KJvHnl3kUv)
+  - Shubham Parashar, Shurui Gui, Xiner Li, Hongyi Ling, Sushil Vemuri, et al.
+  - Key: LLM, Reinforcement Learning, Post Training
+
+- [ReVeal: Self-Evolving Code Agents via Reliable Self-Verification](https://openreview.net/pdf?id=q56ZI1Co43)
+  - Yiyang Jin, Kunzhao Xu, Hang Li, Xueting Han, Yanmin Zhou, et al.
+  - Key: Large Language Model, Reinforcement Learning, Code LLM, multi-turn RL
+  - ExpEnv: LiveCodeBench
+
+- [Process-Verified Reinforcement Learning for Theorem Proving via Lean](https://openreview.net/pdf?id=P00k4DFaXF)
+  - Minsu Kim, Se-Young Yun
+  - Key: Formal Reasoning, Large Language Models, Theorem Proving with LLMs, Lean4
+  - ExpEnv: MiniF2F, ProofNet
+
+- [RL Squeezes, SFT Expands: A Comparative Study of Reasoning LLMs](https://openreview.net/pdf?id=N2lMNqJsBw)
+  - Kohsei Matsutani, Shota Takashiro, Gouki Minegishi, Takeshi Kojima, Yusuke Iwasawa, et al.
+  - Key: LLMs, Reasoning, RLVR, Interpretability
+
+- [Reshaping Reasoning in LLMs: A Theoretical Analysis of RL Training Dynamics through Pattern Selection](https://openreview.net/pdf?id=2OO399hRD6)
+  - Xingwu Chen, Tianle Li, Difan Zou
+  - Key: Reinforcement Learning, Language Models, Reasoning Patterns, Training Dynamics
+
+- [Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment](https://openreview.net/pdf?id=WhSzqsMhfZ)
+  - Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang
+  - Key: cultural awareness, reward model, LLM Alignment, RLHF, RL, Dataset, Benchmark, Multilingual Evaluation
+  - ExpEnv: CARB
+
+- [Breaking Barriers: Do Reinforcement Post Training Gains Transfer To Unseen Domains?](https://openreview.net/pdf?id=mvLhN0veUd)
+  - Chuxuan Hu, Yuxuan Zhu, Antony Kellermann, Caleb Biddulph, Suppakit Waiwitlikhit, et al.
+  - Key: large language models, reinforcement learning, supervised fine-tuning, generalizability
+  - ExpEnv: Reinforcement Learning
+
+- [Tina: Tiny Reasoning Models via LoRA](https://openreview.net/pdf?id=P2OXYO3bEe)
+  - Shangshang Wang, Julian Asilis, Ömer Faruk Akgül, Enes Burak Bilgin, Ollie Liu, et al.
+  - Key: Reasoning models, efficient reasoning, LoRA, RLVR
+  - ExpEnv: AIME24
+
+- [Learning to Reason without External Rewards](https://openreview.net/pdf?id=OU9nFEYR2M)
+  - Xuandong Zhao, Zhewei Kang, Aosong Feng, Sergey Levine, Dawn Song
+  - Key: RL, Reasoning, LLM
+
+- [$	extbf{Re}^{2}$: Unlocking LLM Reasoning via Reinforcement Learning with Re-solving](https://openreview.net/pdf?id=HBOLN5m3qg)
+  - Pinzheng Wang, ShuliXu, Juntao Li, Yu Luo, Dong Li, et al.
+  - Key: LLM Reasoning, Reinforcement learning, Re-solving Mechanism, Test-time Scaling
+
+- [Co-rewarding: Stable Self-supervised RL for Eliciting Reasoning in Large Language Models](https://openreview.net/pdf?id=fDk95XPsCU)
+  - Zizhuo Zhang, Jianing Zhu, Xinmu Ge, Zihua Zhao, Zhanke Zhou, et al.
+  - Key: Large language model reasoning, self-supervised RL
+  - ExpEnv: GSM8K, Llama-3
+
+- [MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent](https://openreview.net/pdf?id=k5nIOvYGCL)
+  - Hongli Yu, Tinghong Chen, Jiangtao Feng, Jiangjie Chen, Weinan Dai, et al.
+  - Key: LLM, memory, agent, RLVR
+
+- [Diversity-Incentivized Exploration for Versatile Reasoning](https://openreview.net/pdf?id=9G7AbBrd27)
+  - Zican Hu, Shilin Zhang, Yafu Li, Jianhao Yan, Xuyang Hu, et al.
+  - Key: LLM reasoning, Reinforcement learning with verifiable rewards, efficient exploration, diversity
+
+- [CORE: Concept-Oriented Reinforcement for Bridging the Definition–Application Gap in Mathematical Reasoning](https://openreview.net/pdf?id=pRSRiXdpkm)
+  - Zijun Gao, Zhikun Xu, Xiao Ye, Ben Zhou
+  - Key: large language models, mathematical reasoning, conceptual understanding, fine-tuning, robustness
+  - ExpEnv: MATH
+
+- [Random Policy Valuation is Enough for LLM Reasoning with Verifiable Rewards](https://openreview.net/pdf?id=ujLgLz6QQa)
+  - Haoran He, Yuxiao Ye, Qingpeng Cai, Chen Hu, Binxing Jiao, et al.
+  - Key: Large Language Models (LLMs), Reinforcement Learning, RLVR, Math Reasoning, Diversity
+  - ExpEnv: MATH, Markov Decision Process
+
+- [ExGRPO: Learning to Reason from Experience](https://openreview.net/pdf?id=701tjQXWVk)
+  - Runzhe Zhan, Yafu Li, Zhi Wang, Xiaoye Qu, Dongrui Liu, et al.
+  - Key: Reinforcement Learning, Large Reasoning Model, Reinforcement Learning with Verifiable Rewards
+
+- [MATH-Beyond: A Benchmark for RL to Expand Beyond the Base Model](https://openreview.net/pdf?id=RNkErKpCAp)
+  - Prasanna Mayilvahanan, Ricardo Olmedo, Thaddäus Wiedemer, Wieland Brendel
+  - Key: RLVR, RL, Reasoning, Math, LLM Evaluation
+  - ExpEnv: MATH, AIME, DeepScaleR, DAPO-Math, MATH-B
+
+- [CDE: Curiosity-Driven Exploration for Efficient Reinforcement Learning in Large Language Models](https://openreview.net/pdf?id=5rXN5knHKW)
+  - Runpeng Dai, Linfeng Song, Haolin Liu, Zhenwen Liang, Dian Yu, et al.
+  - Key: Large language models, Reasoning, Exploration
+  - ExpEnv: AIME
+
+- [LaSeR: Reinforcement Learning with Last-Token Self-Rewarding](https://openreview.net/pdf?id=1OhgEmix20)
+  - Wenkai Yang, Weijie Liu, Ruobing Xie, Yiju Guo, Lulu Wu, et al.
+  - Key: Reinforcement Learning, LLM Reasoning, Self-Rewarding
+
+- [Learn More with Less: Uncertainty Consistency Guided Query Selection for RLVR](https://openreview.net/pdf?id=OOTokVgBY6)
+  - Hao Yi, Yulan Hu, Xin Li, Sheng Ouyang, Lizhong Ding, et al.
+  - Key: Reinforcement learning; Large Language Model; Active Learning; Reasoning
+  - ExpEnv: Coefficient
+
+- [Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs](https://openreview.net/pdf?id=jGbRWwIidy)
+  - Xumeng Wen, Zihan Liu, Shun Zheng, Shengyu Ye, Zhirong Wu, et al.
+  - Key: large language models, reasoning, reinforcement learning
+
+- [Spotlight on Token Perception for Multimodal Reinforcement Learning](https://openreview.net/pdf?id=bRA4lVWJVQ)
+  - Siyuan Huang, Xiaoye Qu, Yafu Li, Yun Luo, Zefeng He, et al.
+  - Key: Multimodal Reasoning, LVLM, Reinforcement Learning
+
+- [SPECS: Decoupling Multimodal Learning via  Self-distilled Preference-based Cold Start](https://openreview.net/pdf?id=oNmMv7Lcj5)
+  - Kun Chen, Peng Shi, Haibo Qiu, Zhixiong Zeng, Siqi Yang, et al.
+  - Key: Vision Language Models, Reinforcement Learning, Reasoning, Cold-Start, Preference Optimization, Direct Preference Optimization (DPO), Self-Distillation
+  - ExpEnv: MathVista, Factor
+
+- [Quagmires in SFT-RL Post-Training: When High SFT Scores Mislead and What to Use Instead](https://openreview.net/pdf?id=uLM3BfKo19)
+  - Feiyang Kang, Michael Kuchnik, Karthik Padthe, Marin Vlastelica, Ruoxi Jia, et al.
+  - Key: Post-Training, Large Reasoning Models, Large Language Models, Performance Prediction, Reinforcement Learning with Verifiable Rewards
+  - ExpEnv: MATH
+
+- [DeepSearch: Overcome the Bottleneck of Reinforcement Learning with Verifiable Rewards via Tree-based Search](https://openreview.net/pdf?id=Kx0G6v2c2S)
+  - Fang Wu, Weihao Xuan, Heli Qi, Aaron Tu, Ximing Lu, et al.
+  - Key: MCTS, RLVR
+
+- [No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping](https://openreview.net/pdf?id=kiXFIESZKv)
+  - Thanh-Long V. Le, Myeongho Jeon, Kim Vu, Viet Dac Lai, Eunho Yang
+  - Key: large language models, reinforcement learning with verifiable rewards, llm reasoning
+  - ExpEnv: MATH
+
+- [R-Horizon: How Far Can Your Large Reasoning Model Really Go in Breadth and Depth?](https://openreview.net/pdf?id=rRB1bYErbL)
+  - Yi Lu, Jianing Wang, Linsen Guo, Wei He, Hongyin Tang, et al.
+  - Key: Large Reasoning Models, Long Horizon Reasoning
+  - ExpEnv: R-HORIZON, AIME2024
+
+- [DuPO: Enabling Reliable Self-Verification via Dual Preference Optimization](https://openreview.net/pdf?id=SD8Z231C45)
+  - Shuaijie She, Yu Bao, Yu Lu, Lu Xu, Tao Li, et al.
+  - Key: Self-Verification, Dual Learning, Preference Optimization, Large Language Model
+  - ExpEnv: MATH, DuPO
+
+- [FAPO: Flawed-Aware Policy Optimization for Efficient and Reliable Reasoning](https://openreview.net/pdf?id=jhqqoimoWt)
+  - Yuyang Ding, Chi Zhang, Juntao Li, Haibin Lin, Xin Liu, et al.
+  - Key: LLM Reasoning, Reinforcement Learning, Robust Learning
+
+- [Conditional Advantage Estimation for Reinforcement Learning in Large Reasoning Models](https://openreview.net/pdf?id=CTEXdHB1BB)
+  - Guanxu Chen, Yafu Li, Yuxian Jiang, Chen Qian, Qihan Ren, et al.
+  - Key: language models, reinforcement learning
+  - ExpEnv: MATH
+
+- [Quantile Advantage Estimation: Stabilizing RLVR for LLM Reasoning](https://openreview.net/pdf?id=WDP5b3mtFV)
+  - Junkang Wu, Kexin Huang, Jiancan Wu, An Zhang, Xiang Wang, et al.
+  - Key: RLVR, LLM reasoning, entropy explosion, advantage estimation
+  - ExpEnv: AIME, AMC, Qwen3-8B
+
+- [Agentic Reinforced Policy Optimization](https://openreview.net/pdf?id=TX4k7BF6aO)
+  - Guanting Dong, Hangyu Mao, Kai Ma, Licheng Bao, Yifei Chen, et al.
+  - Key: Agentic Reinforcement Learning, Large Language Model, Agentic Reasoning, Tool-use Alignment
+
+- [Beyond Pass@ 1: Self-Play with Variational Problem Synthesis Sustains RLVR](https://openreview.net/pdf?id=Wjf3OMJxpn)
+  - Xiao Liang, Zhong-Zhi Li, Yeyun Gong, yelong shen, Ying Nian Wu, et al.
+  - Key: LLM Reasoning; Reinforcement Learning; Self-envolving
+
+- [AnesSuite: A Comprehensive Benchmark and Dataset Suite for Anesthesiology Reasoning in LLMs](https://openreview.net/pdf?id=iKRQMeC7yO)
+  - Xiang Feng, Wentao Jiang, Zengmao Wang, Yong Luo, Pingbo Xu, et al.
+  - Key: Large language model, Reasoning, Anesthesiology, Medicine
+
+- [Native Reasoning Models: Training Language Models to Reason on Unverifiable Data](https://openreview.net/pdf?id=abAMONjBwb)
+  - Yuanfu Wang, Zhixuan Liu, Li xiangtian, Chaochao Lu, Chao Yang
+  - Key: LLM, Reinforcement Learning
+  - ExpEnv: Llama
+
+- [The Choice of Divergence: A Neglected Key to Mitigating Diversity Collapse in Reinforcement Learning with Verifiable Reward](https://openreview.net/pdf?id=xPEsxcO7F7)
+  - Long Li, Zhijian Zhou, JIARAN HAO, Jason Klein Liu, Yanting Miao, et al.
+  - Key: Large Language Model, Reinforcement Learning with Verifiable Reward, f divergence
+  - ExpEnv: MATH
+
+- [Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling](https://openreview.net/pdf?id=kdeiRledV6)
+  - Shuyang Jiang, Yusheng Liao, Ya Zhang, Yanfeng Wang, Yu Wang
+  - Key: efficient reasoning; curriculum sampling with decoupled reward
+
+- [Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation](https://openreview.net/pdf?id=nfURupkdRJ)
+  - Yanqi Dai, Yuxiang Ji, Xiao Zhang, Yong Wang, Xiangxiang Chu, et al.
+  - Key: Mathematical Reasoning, Group Relative Policy Optimization, Question Reformulation
+  - ExpEnv: Reformulation
+
+- [Perception-R1: Advancing Multimodal Reasoning Capabilities of MLLMs via Visual Perception Reward](https://openreview.net/pdf?id=KttCXdjj4w)
+  - Tong Xiao, Xin Xu, Zhenya Huang, Hongyu Gao, Quan Liu, et al.
+  - Key: Multimodal Large Language Models, Multimodal Reasoning, Reinforcement Learning
+  - ExpEnv: MATH
+
+- [Buffer Matters: Unleashing the Power of Off-Policy Reinforcement Learning in Large Language Model Reasoning](https://openreview.net/pdf?id=RduOiisl1S)
+  - Xu Wan, Yansheng Wang, Wenqi Huang, Mingyang Sun
+  - Key: LLM post-training; off-policy RLVR
+  - ExpEnv: Policy Optimization
+
+- [QuRL: Low-Precision Reinforcement Learning for Efficient Reasoning](https://openreview.net/pdf?id=eG0bpCwdKn)
+  - Yuhang Li, Reena Elangovan, Xin Dong, Priyadarshini Panda, Brucek Khailany
+  - Key: Reinforcement Learning, Quantization
+  - ExpEnv: DeepScaleR
+
+- [Towards High Data Efficiency in Reinforcement Learning with Verifiable Reward](https://openreview.net/pdf?id=sruA4AZmZI)
+  - Xinyu Tang, Zhenduo Zhang, Yurou Liu, Xin Zhao, zujie wen, et al.
+  - Key: Data Efficiency, Reinforcement Learning with Verifiable Reward
+  - ExpEnv: AIME24, AIME25
+
+- [Perception-Aware Policy Optimization for Multimodal Reasoning](https://openreview.net/pdf?id=izbBqTL8vb)
+  - Zhenhailong Wang, Xuehang Guo, Sofia Stoica, Haiyang Xu, Hongru WANG, et al.
+  - Key: multimodal reasoning, reinforcement learning, policy optimization, large language models, visual perception, GRPO, DAPO
+  - ExpEnv: Loss
+
+- [Sample Lottery: Unsupervised Discovery of Critical Instances for LLM Reasoning](https://openreview.net/pdf?id=76OZBE4Rb6)
+  - Zhiping Xiao, Yusheng Zhao, Qixin Zhang, Jiaye Xie, Wanjia Zhao, et al.
+  - Key: Large Language Model, Reinforcement Learning with Verifiable Reward
+
+- [Scheduling Your LLM Reinforcement Learning with Reasoning Trees](https://openreview.net/pdf?id=V4zln7XiJj)
+  - Hong Wang, Zhezheng Hao, Jian Luo, Chenxing Wei, Yao Shu, et al.
+  - Key: large language model, RLVR, Data Scheduling
+  - ExpEnv: MATH
+
+- [Risk-Sensitive Reinforcement Learning for Alleviating Exploration Dilemmas in Large Language Models](https://openreview.net/pdf?id=7kC8ORye4l)
+  - Yuhua Jiang, Jiawei Huang, Yufeng Yuan, Xin Mao, YuYue, et al.
+  - Key: RLVR, Large Language Model, Reinforcement Learning, Pass@k Optimization
+
+- [QuRL: Rubrics As Judge For Open-Ended Question Answering](https://openreview.net/pdf?id=DrhWTuhtYq)
+  - Xiyu Wei, Qingwei Zong, Xiaoguang Li, Eugene J. Yu, Sujian Li
+  - Key: rubrics, reinforcement-learning, open-ended qa, large language model, generation
+
+- [Learning What Reinforcement Learning Can't: Interleaved Online Fine-Tuning for Hardest Questions](https://openreview.net/pdf?id=LzCBLrNoyM)
+  - Lu Ma, Hao Liang, Meiyi Qiang, Lexiang Tang, Xiaochen Ma, et al.
+  - Key: Large Language Models; Reasoning; Reinforcement Learning; Supervised Fine-Tuning
+  - ExpEnv: MATH
+
+- [Thinking-Free Policy Initialization Makes Distilled Reasoning Models More Effective and Efficient Reasoners](https://openreview.net/pdf?id=RKYO6R8Jgb)
+  - Xin Xu, Clive Bai, Kai Yang, Tianhao Chen, Yang Wang, et al.
+  - Key: Large Language Models, Reasoning, Reinforcement Learning with Verifiable Rewards, Long Chain-of-Thought
+  - ExpEnv: LiveCodeBench, AIME24
+
+- [Exploration vs Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward](https://openreview.net/pdf?id=sE8DCSJTzd)
+  - Peter Chen, Xiaopeng Li, Ziniu Li, Wotao Yin, Xi Chen, et al.
+  - Key: Reinforcement Learning with Verifiable Rewards, Group Relative Policy Optimization, LLM Reasoning
+
+- [How Far Can Unsupervised RLVR Scale LLM Training?](https://openreview.net/pdf?id=VesLZukY5E)
+  - Bingxiang He, Yuxin Zuo, Zeyuan Liu, Shangziqi Zhao, Zixuan Fu, et al.
+  - Key: Large Language Models, Unsupervised Reward, Reinforcement Learning, Reasoning
+
+- [TraPO: A Semi-Supervised Reinforcement Learning Framework for Boosting LLM Reasoning](https://openreview.net/pdf?id=3K1y4KbWAx)
+  - Shenzhi Yang, Guangcheng Zhu, Haobo Wang, Xing Zheng, Yingfan MA, et al.
+  - Key: Reinforcement Learning with Verifiable Rewards, Semi-supervised Learning, Large Language Model
+
+- [Search Self-Play: Pushing the Frontier of Agent Capability without Supervision](https://openreview.net/pdf?id=ZmGirmNJqE)
+  - Hongliang Lu, Yuhang Wen, Pengyu Cheng, Ruijin Ding, Jiaqi Guo, et al.
+  - Key: Self-Play, Deep Search, LLM, Agent, RLVR
+
+- [SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning](https://openreview.net/pdf?id=7Yayy5fNLg)
+  - Bo Liu, Simon Yu, Zichen Liu, Leon Guertler, Penghui Qi, et al.
+  - Key: Reinforcement Learning, Self-Play, Large Language Models, Reasoning, Multi-Agent Reinforcement Learning
+
+- [From Verifiable Dot to Reward Chain: Harnessing Verifiable Reference-based Rewards for Reinforcement Learning of Open-ended Generation](https://openreview.net/pdf?id=ZumVIktGbt)
+  - Yuxin Jiang, Yufei Wang, Qiyuan Zhang, Xingshan Zeng, Liangyou Li, et al.
+  - Key: reinforcement learning, verifiable reference-based rewards, open-ended generation
+  - ExpEnv: MATH
+
+- [A Simple "Motivation" Can Enhance Reinforcement Finetuning of Large Reasoning Models](https://openreview.net/pdf?id=3owSlsYDQf)
+  - Junjie Zhang, Guozheng Ma, Shunyu Liu, Haoyu Wang, Jiaxing Huang, et al.
+  - Key: Reinforcement Finetuning, Large Language Models
+
+</details>
+
+#### ICML 2026
+
+<details open>
+  <summary>Click to expand / collapse</summary>
+
+- [RuCL: Stratified Rubric-Based Curriculum Learning for Multimodal Large Language Model Reasoning](https://openreview.net/forum?id=TFhUQ6uFCP)
+  - Yukun Chen, Jiaming Li, Longze Chen, Ze Gong, Jingpeng Li, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [ResRL: Boosting LLM Reasoning via Negative Sample Projection Residual Reinforcement Learning](https://openreview.net/forum?id=kmN9ozKtGh)
+  - Zihan Lin, Xiaohan Wang, Jie Cao, Jiajun Chai, Li Wang, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, alignment
+  - ExpEnv: Residual Reinforcement Learning, Calling
+
+- [Decoupling Reasoning and Confidence: Resurrecting Calibration in Reinforcement Learning from Verifiable Rewards](https://openreview.net/forum?id=3V1p2bJugq)
+  - Zhengzhao Ma, Xueru Wen, Boxi Cao, Yaojie Lu, Hongyu Lin, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [See First, Reason Later: Mutual Information-Guided Reinforcement Learning for Vision-Language Models](https://openreview.net/forum?id=Y1PXB8HBV7)
+  - Junfeng Fang, Zonghan Wu, Yin Zhang, Jiaxuan Zhao, Zengxiang Li, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [G$^2$RPO: Geometric GRPO; Escaping LLM's Reasoning Rut to Break  Accuracy--Entropy Trade-off](https://openreview.net/forum?id=nAkHNBbg4p)
+  - Ali Rad, Khashayar Filom, Darioush Keivan, Peyman Mohajerin Esfahani, Ehsan Kamalinejad
+  - Key: verifiable reward, policy optimization, reinforcement learning, rlvr, reasoning
+  - ExpEnv: MATH, AIME
+
+- [Rate or Fate? RLV$^{arepsilon}$R: Reinforcement Learning with Verifiable Noisy Rewards](https://openreview.net/forum?id=LwB2EacVT6)
+  - Ali Rad, Khashayar Filom, Darioush Keivan, Peyman Mohajerin Esfahani, Ehsan Kamalinejad
+  - Key: verifiable reward, reinforcement learning, rlvr, reasoning, grpo
+
+- [Anchored Policy Optimization: Mitigating Exploration Collapse via Support-Constrained Rectification](https://openreview.net/forum?id=EOEI74ZtA4)
+  - Tianyi Wang, Long Li, Hongcan Guo, Yibiao Chen, Yixia Li, et al.
+  - Key: verifiable reward, policy optimization, reinforcement learning, rlvr, ppo
+
+- [Spurious Rewards: Rethinking Training Signals in RLVR](https://openreview.net/forum?id=tqTNOpkP5j)
+  - Rulin Shao, Stella Li, Rui Xin, Scott Geng, Yiping Wang, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+  - ExpEnv: MATH, Qwen
+
+- [Gradient Regularization Prevents Reward Hacking in Reinforcement Learning from Human Feedback and Verifiable Rewards](https://openreview.net/forum?id=T67db38qhr)
+  - Johannes Ackermann, Michael Noukhovitch, Takashi Ishida, Masashi Sugiyama
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, rlhf
+  - ExpEnv: MATH
+
+- [Discounted Beta-Bernoulli Reward Estimation for Sample-Efficient Reinforcement Learning with Verifiable Rewards](https://openreview.net/forum?id=RUheyL9bb9)
+  - Haechan Kim, Soohyun Ryu, Gyouk Chu, Doohyuk Jang, Eunho Yang
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [Contextual Rollout Bandits for Reinforcement Learning with Verifiable Rewards](https://openreview.net/forum?id=weMYE1B16x)
+  - Xiaodong Lu, Xiaohan Wang, Jiajun Chai, Guojun Yin, Wei Lin, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, ppo
+
+- [The Unlearnability Phenomenon in RLVR for Language Models](https://openreview.net/forum?id=IiFFUPgSkV)
+  - Yulin Chen, He He, Chen Zhao
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [Evaluating Parameter Efficient Methods for RLVR](https://openreview.net/forum?id=76CIL1O0bz)
+  - Qingyu Yin, Yulun Wu, Zhennan Shen, Sunbowen Lee, Zhilin Wang, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, fine-tuning
+
+- [Breaking the Self-Confirming Loop: Diagnosing and Mitigating Systemic Reward Bias in Self-Rewarding RL](https://openreview.net/forum?id=oAagVd30Fn)
+  - Chuyi Tan, Peiwen Yuan, Xinglin Wang, Yiwei Li, Shaoxiong Feng, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [Clipping Bottleneck: Stabilizing RLVR via Stochastic Recovery of Near-Boundary Signals](https://openreview.net/forum?id=ZXFTvoBZ1B)
+  - Shuo Yang, Jinda Lu, Chiyu Ma, Kexin Huang, Haoming Meng, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, reasoning, llm
+
+- [One-Way Policy Optimization for Self-Evolving LLMs](https://openreview.net/forum?id=XPO9lrZ9Ge)
+  - Shuo Yang, Jinda Lu, Kexin Huang, Chiyu Ma, Shaohang Wei, et al.
+  - Key: verifiable reward, policy optimization, reinforcement learning, rlvr, language model
+
+- [Experience Augmented Policy Optimization for LLM Reasoning](https://openreview.net/forum?id=QOoQ0Bo2ls)
+  - Jinda Lu, Kexin Huang, Junkang Wu, Shuo Yang, Jinghan Li, et al.
+  - Key: verifiable reward, policy optimization, reinforcement learning, rlvr, language model
+  - ExpEnv: MATH
+
+- [Resource-Efficient Reinforcement for Reasoning Large Language Models via Dynamic One-Shot Policy Refinement](https://openreview.net/forum?id=YYhv4h8X1O)
+  - Yunjian Zhang, Sudong Wang, Yang Li, Peiran Xu, Conghao Zhou, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [EchoRL: Reinforcement Learning via Rollout Echoing](https://openreview.net/forum?id=A6az59SGtF)
+  - Jinhe Bi, Aniri -, Minglai Yang, Xingcheng Zhou, Wenke Huang, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [Implicit Actor Critic Coupling via a Supervised Learning Framework for RLVR](https://openreview.net/forum?id=SmhCeGwSTP)
+  - Jiaming Li, Longze Chen, Ze Gong, Yukun Chen, Lu Wang, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [ThoughtFold: Folding Reasoning Chains via Introspective Preference Learning](https://openreview.net/forum?id=qeeD6aZLLX)
+  - Ziyan Liu, Xueda Shen, Yuzhe Gu, songyang gao, Kuikun Liu, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, preference learning, reasoning
+  - ExpEnv: Chain-of-Thoughts
+
+- [Spurious Rewards Paradox: Mechanistically Understanding How RLVR Activates Memorization Shortcuts in LLMs](https://openreview.net/forum?id=SGUSUm2491)
+  - Lecheng Yan, Ruizhe Li, Guanhua CHEN, Qing Li, Jiahui Geng, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, reasoning, llm
+
+- [Noise-corrected GRPO: From Noisy Rewards to Unbiased Gradients](https://openreview.net/forum?id=mnU8odBWYE)
+  - Omar Elmansouri, Fathinah Izzati, Mohamed El Amine Seddik, Salem Lahlou
+  - Key: verifiable reward, policy optimization, reinforcement learning, rlvr, rlhf
+  - ExpEnv: MATH
+
+- [TGPO: Efficient Policy Optimization through Sequence Anchor and Information Gating](https://openreview.net/forum?id=bJ9JtQWpoE)
+  - Hang Ding, Dongqi Liu, Qiming Feng, Jian Li, Tong Lei, et al.
+  - Key: verifiable reward, policy optimization, reinforcement learning, rlvr, language model
+
+- [Provable Benefits of RLVR over SFT for Reasoning Models: Learning to Backtrack Efficiently](https://openreview.net/forum?id=P3Mnh7mF5a)
+  - Stanley Wei, Juno Kim
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, fine-tuning
+
+- [Do We Need Adam? Surprisingly Strong and Sparse Reinforcement Learning with SGD in LLMs](https://openreview.net/forum?id=z31fdV4WRu)
+  - Sagnik Mukherjee, Lifan Yuan, Pavan Jayasinha, Dilek Hakkani-Tür, Hao Peng
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, fine-tuning
+
+- [Beyond Normalization: Rethinking the Partition Function as a Difficulty Scheduler for RLVR](https://openreview.net/forum?id=U93dBehANs)
+  - Dohyung Kim, Minbeom Kim, Jeonghye Kim, Lee Sangmook, Sojeong Rhee, et al.
+  - Key: reasoning, llm, grpo
+  - ExpEnv: Fun
+
+- [Learning Useful Supervision for Reinforcement Learning in Reasoning Models](https://openreview.net/forum?id=xWvj03N4sJ)
+  - Liang CHEN, Xueting Han, Li Shen, Jing Bai, Kam-Fai Wong
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, fine-tuning
+
+- [The Obfuscation Atlas: Mapping Where Honesty Emerges in RLVR with Deception Probes](https://openreview.net/forum?id=wrGSN9kAVD)
+  - Mohammad Taufeeque, Stefan Heimersheim, Adam Gleave, Chris Cundy
+  - Key: detector, training, deception, obfuscated, honest
+
+- [Where Signals Are Sparse, We Synthesize: Reinforcing Self-Corrective Reasoning in Vision–Language Models via Rollout Augmentation](https://openreview.net/forum?id=FxiO8RTOsq)
+  - Yi Ding, Ziliang Qiu, Bolian Li, Ruqi Zhang
+  - Key: reinforcement learning, rlvr, language model, reasoning
+
+- [PLaID++: A Preference Aligned Language Model for Targeted Inorganic Materials Design](https://openreview.net/forum?id=wFThVGzmvq)
+  - Andy Xu, Rohan Desai, Larry Wang, Ethan Ritz, Gabriel Hope
+  - Key: verifiable reward, reinforcement learning, rlvr, llm, preference optimization
+
+- [Enhancing Multi-Modal LLMs Reasoning via Difficulty-Aware Group Normalization](https://openreview.net/forum?id=jyOgpu5wfC)
+  - Jinghan Li, Junfeng Fang, Jinda Lu, Yuan Wang, Xiaoyan Guo, et al.
+  - Key: verifiable reward, policy optimization, reinforcement learning, rlvr, language model
+
+- [Escaping the Mode: Multi-Answer Reinforcement Learning in LMs](https://openreview.net/forum?id=v5f3KAjVEF)
+  - Isha Puri, Mehul Damani, Idan Shenfeld, Marzyeh Ghassemi, Jacob Andreas, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model
+
+- [Depth-Breadth Synergy in RLVR: Unlocking LLM Reasoning Gains with Adaptive Exploration](https://openreview.net/forum?id=v3diR6NstK)
+  - Zhicheng Yang, Zhijiang Guo, Yinya Huang, Yongxin Wang, Dongchun Xie, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [Reinforcement Learning via Self-Distillation](https://openreview.net/forum?id=QkfkxyRizZ)
+  - Jonas Hübotter, Frederike Lübeck, Lejs Behric, Anton Baumann, Marco Bagatella, et al.
+  - Key: verifiable reward, policy optimization, reinforcement learning, rlvr, language model
+  - ExpEnv: MATH, LiveCodeBench, Policy Optimization
+
+- [A Regret Minimization Framework on Preference Learning  in Large Language Models](https://openreview.net/forum?id=genVnYBAV7)
+  - Suhwan Kim, Taehyun Cho, Youngsoo Jang, Geon-Hyeong Kim, Yu Jin Kim, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, preference learning, language model
+
+- [Geometry-Preserving Orthonormal Initialization for Low-Rank Adaptation in Reinforcement Learning](https://openreview.net/forum?id=Xo95FS2GTK)
+  - Ruijia Zhang, Jiacheng Zhu, Hanqing Zhu, Laixi Shi
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, fine-tuning
+
+- [Tackling Length Inflation Without Trade-offs: Group Relative Reward Rescaling for Reinforcement Learning](https://openreview.net/forum?id=quqoVYpzX3)
+  - Zichao Li, Jie Lou, Fangchen Dong, Zhiyuan Fan, Mengjie Ren, et al.
+  - Key: reinforcement learning, rlvr, rlhf, reasoning, llm
+
+- [Scaling the Scaling Logic: Agentic Meta-Synthesis of Logic Reasoning](https://openreview.net/forum?id=5fMeQEzret)
+  - Bowen LIU, Zhi Wu, RunquanXie, Zhanhui Kang, Jia Li
+  - Key: verifiable reward, reinforcement learning, rlvr, reasoning
+  - ExpEnv: Protocol, SSLogic-evolved
+
+- [Single-Rollout Hidden-State Dynamics for Training-Free RLVR Data Selection](https://openreview.net/forum?id=pvq2AhjOy1)
+  - Jianghao Wu, Daniel F Schmidt, Weiqiang Wang, Jin Ye, Jianfei Cai, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, reasoning
+
+- [SAGE: Shaping Anchors for Guided Exploration in RLVR of LLMs](https://openreview.net/forum?id=VzRUI5ZVkp)
+  - Chanuk Lee, Minki Kang, Sung Ju Hwang
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, ppo
+
+- [Outcome-Based Rewards Do Not Guarantee Faithful and Verifiable Reasoning](https://openreview.net/forum?id=VrY5x2smAd)
+  - Qinan Yu, Alexa Tartaglini, Peter Hase, Carlos Guestrin, Christopher Potts
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [Reward and Guidance through Rubrics: Promoting Exploration to Improve Multi-Domain Reasoning](https://openreview.net/forum?id=AfqsNFzJcs)
+  - Baolong Bi, Shenghua Liu, Yiwei Wang, Siqian Tong, Lingrui Mei, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [Advantage Collapse in Group Relative Policy Optimization: Diagnosis and Mitigation](https://openreview.net/forum?id=MKNimf9bIx)
+  - Xixiang He, Qiyao Sun, Ao Cheng, Xingming Li, Xuanyu Ji, et al.
+  - Key: verifiable reward, policy optimization, reinforcement learning, rlvr, language model
+
+- [Golden Goose: A Simple Trick to Synthesize Unlimited RLVR Tasks from Unverifiable Internet Text](https://openreview.net/forum?id=LkiD08kdRy)
+  - Ximing Lu, David Acuna, Jaehun Jung, Jian Hu, Di Zhang, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [Shrinking the Variance: Shrinkage Baselines for Reinforcement Learning with Verifiable Rewards](https://openreview.net/forum?id=LffORETnav)
+  - Guanning Zeng, Zhaoyi Zhou, Daman Arora, Andrea Zanette
+  - Key: verifiable reward, reinforcement learning, rlvr, reasoning, grpo
+
+- [Rubric Curriculum RL: Exploiting the Generation-Verification Gap in Creative Writing](https://openreview.net/forum?id=LShWfvQzTP)
+  - Tejas Krishnan, Sumeet Motwani, Charles London, Suhaas Bhat, Huitian Jiao, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, reward model
+  - ExpEnv: MATH
+
+- [On the Learning Dynamics of RLVR at the Edge of Competence](https://openreview.net/forum?id=KxYCE98u1d)
+  - Yu Huang, Zixin Wen, Yuejie Chi, Yuting Wei, Aarti Singh, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, reasoning
+
+- [BroRL: Scaling Reinforcement Learning via Broadened Exploration](https://openreview.net/forum?id=KmS7pdFBEh)
+  - Jian Hu, Mingjie Liu, Ximing Lu, Fang Wu, Zaid Harchaoui, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, reasoning
+
+- [Probing RLVR Training Instability through the Lens of Objective-Level Hacking](https://openreview.net/forum?id=KlGj06E8Wa)
+  - Yiming Dong, Kun Fu, Haoyu Li, Xinyuan Zhu, Yurou Liu, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, language model, alignment
+
+- [Monitorability as a Free Gift: How RLVR Spontaneously Aligns Reasoning](https://openreview.net/forum?id=9hzK071Z3R)
+  - Zidi Xiong, Shan Chen, Himabindu Lakkaraju
+  - Key: verifiable reward, reinforcement learning, safety, rlvr, reasoning
+
+- [PretrainZero: Reinforcement Active Pretraining](https://openreview.net/forum?id=Ir9AuzGbMB)
+  - Xingrun Xing, Zhiyuan Fan, Jie Lou, Guoqi Li, Jiajun Zhang, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, fine-tuning, reward model
+  - ExpEnv: MATH, MMLU, MMLU-Pro
+
+- [Solver-in-the-Loop: MDP-Based Benchmarks for Self-Correction and Behavioral Rationality in Operations Research](https://openreview.net/forum?id=IQ8xF6eMuZ)
+  - Ruicheng Ao, David Simchi-Levi, Xinshang Wang
+  - Key: rlvr, llm, models, through, solver
+
+- [DRIVE: Best Data Scheduling Practices for Reinforcement Learning with Verifiable Reward in Competitive Code Generation](https://openreview.net/forum?id=aLTzh5Sbe9)
+  - Speed Zhu, Chuheng Zhang, Jianwei Cai, Guang Chen, Lulu Wu, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, fine-tuning, reasoning
+  - ExpEnv: CodeForces, Qwen2
+
+- [Reward Modeling from Natural Language Human Feedback](https://openreview.net/forum?id=nd0hT1eyEo)
+  - Zongqi Wang, Rui Wang, Yuchuan Wu, Yiyao Yu, Pinyi Zhang, et al.
+  - Key: verifiable reward, reinforcement learning, rlvr, reward model, reward modeling
+
+</details>
 ### 2025
 
 #### NeurIPS 2025
